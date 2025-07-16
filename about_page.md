@@ -3,7 +3,7 @@
 ---
 
 ## Navigation
-[Home](index.md) | [About](about.md) | [Services](services.md) | [Technology](technology.md) | [Industries](industries.md) | [News](news.md) | [Contact](contact.md)
+[Home](index.html) | [About](about.html) | [Services](services.html) | [Technology](technology.html) | [Industries](industries.html) | [News](news.html) | [Contact](contact.html)
 
 ---
 
@@ -93,7 +93,7 @@ M1 Digital is committed to maintaining the highest standards of security, privac
 
 **Ready to learn more about how M1 Digital can transform your business?**
 
-[Explore Our Services](services.md) | [View Our Technology](technology.md) | [Contact Us](contact.md)
+[Explore Our Services](services.html) | [View Our Technology](technology.html) | [Contact Us](contact.html)
 
 ---
 

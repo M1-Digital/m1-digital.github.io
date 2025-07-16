@@ -3,7 +3,7 @@
 ---
 
 ## Navigation
-[Home](index.md) | [About](about.md) | [Services](services.md) | [Technology](technology.md) | [Industries](industries.md) | [News](news.md) | [Contact](contact.md)
+[Home](index.html) | [About](about.html) | [Services](services.html) | [Technology](technology.html) | [Industries](industries.html) | [News](news.html) | [Contact](contact.html)
 
 ---
 
@@ -41,7 +41,7 @@ Real-time payment processing systems with multi-currency support, advanced fraud
 **Financial Technology Consulting**  
 Blockchain strategy, digital transformation, regulatory compliance, and custom fintech application development.
 
-[Learn More About Our Services →](services.md)
+[Learn More About Our Services →](services.html)
 
 ---
 
@@ -50,7 +50,7 @@ Blockchain strategy, digital transformation, regulatory compliance, and custom f
 M1 Digital delivers enterprise-grade blockchain payment solutions that accelerate business growth while maintaining the highest security standards.
 
 **Get Started Today**  
-[Contact Us](contact.md) | [View Our Technology](technology.md) | [Explore Industries We Serve](industries.md)
+[Contact Us](contact.html) | [View Our Technology](technology.html) | [Explore Industries We Serve](industries.html)
 
 ---
 

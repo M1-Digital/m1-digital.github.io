@@ -3,7 +3,7 @@
 ---
 
 ## Navigation
-[Home](index.md) | [About](about.md) | [Services](services.md) | [Technology](technology.md) | [Industries](industries.md) | [News](news.md) | [Contact](contact.md)
+[Home](index.html) | [About](about.html) | [Services](services.html) | [Technology](technology.html) | [Industries](industries.html) | [News](news.html) | [Contact](contact.html)
 
 ---
 
@@ -231,7 +231,7 @@ Subscribe to our newsletter for the latest company updates, industry insights, a
 - Company news and announcements
 - Event invitations and webinar access
 
-[Subscribe to Newsletter](contact.md) | [Follow Us on LinkedIn] | [Contact Our Team](contact.md)
+[Subscribe to Newsletter](contact.html) | [Follow Us on LinkedIn] | [Contact Our Team](contact.html)
 
 ---
 

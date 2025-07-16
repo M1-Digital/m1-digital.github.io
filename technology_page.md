@@ -3,7 +3,7 @@
 ---
 
 ## Navigation
-[Home](index.md) | [About](about.md) | [Services](services.md) | [Technology](technology.md) | [Industries](industries.md) | [News](news.md) | [Contact](contact.md)
+[Home](index.html) | [About](about.html) | [Services](services.html) | [Technology](technology.html) | [Industries](industries.html) | [News](news.html) | [Contact](contact.html)
 
 ---
 
@@ -224,7 +224,7 @@ Our R&D team works on next-generation solutions to address evolving business nee
 
 **Ready to leverage our cutting-edge technology for your business?**
 
-[Contact Our Technical Team](contact.md) | [Explore Our Services](services.md) | [Learn About Implementation](about.md)
+[Contact Our Technical Team](contact.html) | [Explore Our Services](services.html) | [Learn About Implementation](about.html)
 
 ---
 

@@ -3,7 +3,7 @@
 ---
 
 ## Navigation
-[Home](index.md) | [About](about.md) | [Services](services.md) | [Technology](technology.md) | [Industries](industries.md) | [News](news.md) | [Contact](contact.md)
+[Home](index.html) | [About](about.html) | [Services](services.html) | [Technology](technology.html) | [Industries](industries.html) | [News](news.html) | [Contact](contact.html)
 
 ---
 
@@ -280,7 +280,7 @@ Our team understands the unique challenges and opportunities in your industry. W
 
 **Ready to transform your industry with blockchain payments?**
 
-[Contact Our Industry Experts](contact.md) | [Learn About Our Technology](technology.md) | [Explore Our Services](services.md)
+[Contact Our Industry Experts](contact.html) | [Learn About Our Technology](technology.html) | [Explore Our Services](services.html)
 
 ---
 

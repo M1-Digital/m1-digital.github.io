@@ -3,7 +3,7 @@
 ---
 
 ## Navigation
-[Home](index.md) | [About](about.md) | [Services](services.md) | [Technology](technology.md) | [Industries](industries.md) | [News](news.md) | [Contact](contact.md)
+[Home](index.html) | [About](about.html) | [Services](services.html) | [Technology](technology.html) | [Industries](industries.html) | [News](news.html) | [Contact](contact.html)
 
 ---
 
@@ -163,7 +163,7 @@ Our team is ready to discuss your specific needs and develop a customized soluti
 4. **Implementation** - Deploy your blockchain payment solution
 5. **Support** - Ongoing maintenance and optimization
 
-[Contact Us Today](contact.md) | [Learn About Our Technology](technology.md) | [View Industries We Serve](industries.md)
+[Contact Us Today](contact.html) | [Learn About Our Technology](technology.html) | [View Industries We Serve](industries.html)
 
 ---
 

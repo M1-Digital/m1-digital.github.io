@@ -3,7 +3,7 @@
 ---
 
 ## Navigation
-[Home](index.md) | [About](about.md) | [Services](services.md) | [Technology](technology.md) | [Industries](industries.md) | [News](news.md) | [Contact](contact.md)
+[Home](index.html) | [About](about.html) | [Services](services.html) | [Technology](technology.html) | [Industries](industries.html) | [News](news.html) | [Contact](contact.html)
 
 ---
 
@@ -124,7 +124,7 @@ Enable seamless in-game transactions and digital asset trading.
 **Supply Chain & Logistics**  
 Automate supplier payments and international trade finance.
 
-[Learn more about our industry solutions](industries.md)
+[Learn more about our industry solutions](industries.html)
 
 ---
 
@@ -226,7 +226,7 @@ A: We work with legal experts to ensure compliance across all jurisdictions wher
 
 **Contact our team today to discover how M1 Digital can transform your payment infrastructure.**
 
-[Learn About Our Services](services.md) | [Explore Our Technology](technology.md) | [Read About Our Company](about.md)
+[Learn About Our Services](services.html) | [Explore Our Technology](technology.html) | [Read About Our Company](about.html)
 
 ---
 
