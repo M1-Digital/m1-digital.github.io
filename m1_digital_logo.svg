@@ -1,0 +1,64 @@
+<svg viewBox="0 0 300 120" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background for visibility -->
+  <rect width="300" height="120" fill="#f8f9fa" stroke="#e9ecef" stroke-width="1"/>
+  
+  <!-- Blockchain geometric pattern (hexagonal network) -->
+  <g id="blockchain-pattern" opacity="0.1">
+    <polygon points="25,30 35,24 45,30 45,42 35,48 25,42" fill="#0066CC"/>
+    <polygon points="45,18 55,12 65,18 65,30 55,36 45,30" fill="#0066CC"/>
+    <polygon points="65,30 75,24 85,30 85,42 75,48 65,42" fill="#0066CC"/>
+    <polygon points="45,42 55,36 65,42 65,54 55,60 45,54" fill="#0066CC"/>
+    <polygon points="25,54 35,48 45,54 45,66 35,72 25,66" fill="#0066CC"/>
+    <polygon points="65,54 75,48 85,54 85,66 75,72 65,66" fill="#0066CC"/>
+    
+    <!-- Connecting lines -->
+    <line x1="35" y1="48" x2="45" y2="42" stroke="#0066CC" stroke-width="1"/>
+    <line x1="55" y1="36" x2="65" y2="42" stroke="#0066CC" stroke-width="1"/>
+    <line x1="75" y1="48" x2="65" y2="54" stroke="#0066CC" stroke-width="1"/>
+    <line x1="45" y1="54" x2="55" y2="60" stroke="#0066CC" stroke-width="1"/>
+  </g>
+  
+  <!-- Main logo elements -->
+  <g id="main-logo">
+    <!-- M1 Text -->
+    <text x="100" y="50" font-family="Inter, Arial, sans-serif" font-size="36" font-weight="700" fill="#1A1A1A">M1</text>
+    
+    <!-- Digital cube icon integrated with M1 -->
+    <g id="digital-cube" transform="translate(140, 25)">
+      <!-- 3D cube representation -->
+      <polygon points="0,15 12,5 24,15 12,25" fill="#0066CC"/>
+      <polygon points="0,15 12,25 12,35 0,25" fill="#004499"/>
+      <polygon points="12,25 24,15 24,25 12,35" fill="#0055AA"/>
+      
+      <!-- Connection lines suggesting network -->
+      <line x1="-5" y1="20" x2="0" y2="15" stroke="#FFB800" stroke-width="2"/>
+      <line x1="24" y1="15" x2="29" y2="20" stroke="#FFB800" stroke-width="2"/>
+      <line x1="12" y1="35" x2="17" y2="40" stroke="#FFB800" stroke-width="2"/>
+    </g>
+    
+    <!-- DIGITAL text -->
+    <text x="100" y="75" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="400" fill="#8E9AAF" letter-spacing="2px">DIGITAL</text>
+    
+    <!-- Fintech descriptor -->
+    <text x="100" y="92" font-family="Inter, Arial, sans-serif" font-size="10" font-weight="300" fill="#8E9AAF">BLOCKCHAIN PAYMENTS</text>
+  </g>
+  
+  <!-- Divider line -->
+  <line x1="90" y1="20" x2="90" y2="80" stroke="#0066CC" stroke-width="2"/>
+  
+  <!-- Additional blockchain elements -->
+  <g id="accent-elements">
+    <!-- Small connecting nodes -->
+    <circle cx="190" cy="35" r="3" fill="#FFB800"/>
+    <circle cx="210" cy="45" r="2" fill="#00A86B"/>
+    <circle cx="200" cy="65" r="2.5" fill="#0066CC"/>
+    
+    <!-- Connection lines -->
+    <line x1="190" y1="35" x2="210" y2="45" stroke="#8E9AAF" stroke-width="1" opacity="0.5"/>
+    <line x1="210" y1="45" x2="200" y2="65" stroke="#8E9AAF" stroke-width="1" opacity="0.5"/>
+    <line x1="170" y1="40" x2="190" y2="35" stroke="#8E9AAF" stroke-width="1" opacity="0.5"/>
+  </g>
+  
+  <!-- Company suffix -->
+  <text x="220" y="85" font-family="Inter, Arial, sans-serif" font-size="8" font-weight="300" fill="#8E9AAF">PTY LTD</text>
+</svg>
