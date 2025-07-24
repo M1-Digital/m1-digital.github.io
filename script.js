@@ -44,6 +44,25 @@ function toggleMobileMenu() {
 }
 
 /**
+ * FAQ toggle functionality (for contact page)
+ */
+function toggleFAQ(element) {
+    const faqItem = element.parentNode;
+    const answer = faqItem.querySelector('.faq-answer');
+    const toggle = element.querySelector('.faq-toggle');
+    
+    if (answer.style.display === 'none' || answer.style.display === '') {
+        answer.style.display = 'block';
+        faqItem.classList.add('active');
+        toggle.style.transform = 'rotate(180deg)';
+    } else {
+        answer.style.display = 'none';
+        faqItem.classList.remove('active');
+        toggle.style.transform = 'rotate(0deg)';
+    }
+}
+
+/**
  * Initialize theme on page load
  */
 function initializeTheme() {
@@ -75,13 +94,15 @@ function initializeSmoothScrolling() {
                 // Close mobile menu if open
                 const navLinks = document.querySelector('.nav-links');
                 const mobileMenu = document.querySelector('.mobile-menu');
-                const spans = mobileMenu.querySelectorAll('span');
-                
-                if (navLinks.classList.contains('active')) {
-                    navLinks.classList.remove('active');
-                    spans[0].style.transform = 'none';
-                    spans[1].style.opacity = '1';
-                    spans[2].style.transform = 'none';
+                if (mobileMenu) {
+                    const spans = mobileMenu.querySelectorAll('span');
+                    
+                    if (navLinks.classList.contains('active')) {
+                        navLinks.classList.remove('active');
+                        spans[0].style.transform = 'none';
+                        spans[1].style.opacity = '1';
+                        spans[2].style.transform = 'none';
+                    }
                 }
             }
         });
@@ -101,12 +122,11 @@ function initializeScrollEffects() {
         // Add/remove background blur based on scroll position
         if (scrollTop > 50) {
             nav.style.background = document.body.getAttribute('data-theme') === 'dark' 
-                ? 'rgba(4, 30, 66, 0.95)' 
+                ? 'rgba(4, 30, 66, 0.95)'
                 : 'rgba(255, 255, 255, 0.95)';
-            nav.style.backdropFilter = 'blur(20px)';
         } else {
             nav.style.background = document.body.getAttribute('data-theme') === 'dark' 
-                ? 'rgba(10, 10, 10, 0.9)' 
+                ? 'rgba(4, 30, 66, 0.9)'
                 : 'rgba(255, 255, 255, 0.9)';
         }
         
@@ -132,8 +152,8 @@ function initializeAnimationObserver() {
         });
     }, observerOptions);
     
-    // Observe feature cards and service cards
-    document.querySelectorAll('.feature-card, .service-card').forEach(card => {
+    // Observe feature cards, service cards, contact cards, and office cards
+    document.querySelectorAll('.feature-card, .service-card, .contact-card, .office-card, .faq-item').forEach(card => {
         card.style.opacity = '0';
         card.style.transform = 'translateY(30px)';
         card.style.transition = 'opacity 0.6s ease, transform 0.6s ease';
@@ -147,18 +167,20 @@ function initializeAnimationObserver() {
 function initializeLoadingAnimation() {
     const heroContent = document.querySelector('.hero-content');
     
-    // Add initial loading state
-    heroContent.style.opacity = '0';
-    heroContent.style.transform = 'translateY(50px)';
-    
-    // Animate in after page load
-    window.addEventListener('load', () => {
-        setTimeout(() => {
-            heroContent.style.transition = 'opacity 1s ease, transform 1s ease';
-            heroContent.style.opacity = '1';
-            heroContent.style.transform = 'translateY(0)';
-        }, 300);
-    });
+    if (heroContent) {
+        // Add initial loading state
+        heroContent.style.opacity = '0';
+        heroContent.style.transform = 'translateY(50px)';
+        
+        // Animate in after page load
+        window.addEventListener('load', () => {
+            setTimeout(() => {
+                heroContent.style.transition = 'opacity 1s ease, transform 1s ease';
+                heroContent.style.opacity = '1';
+                heroContent.style.transform = 'translateY(0)';
+            }, 300);
+        });
+    }
 }
 
 /**
@@ -189,7 +211,7 @@ function initializeKeyboardNavigation() {
         // Close mobile menu with Escape
         if (e.key === 'Escape') {
             const navLinks = document.querySelector('.nav-links');
-            if (navLinks.classList.contains('active')) {
+            if (navLinks && navLinks.classList.contains('active')) {
                 toggleMobileMenu();
             }
         }
@@ -219,12 +241,14 @@ window.addEventListener('resize', function() {
     const mobileMenu = document.querySelector('.mobile-menu');
     
     // Close mobile menu on window resize if it's open
-    if (window.innerWidth > 768 && navLinks.classList.contains('active')) {
+    if (window.innerWidth > 768 && navLinks && navLinks.classList.contains('active')) {
         navLinks.classList.remove('active');
-        const spans = mobileMenu.querySelectorAll('span');
-        spans[0].style.transform = 'none';
-        spans[1].style.opacity = '1';
-        spans[2].style.transform = 'none';
+        if (mobileMenu) {
+            const spans = mobileMenu.querySelectorAll('span');
+            spans[0].style.transform = 'none';
+            spans[1].style.opacity = '1';
+            spans[2].style.transform = 'none';
+        }
     }
 });
 
@@ -242,5 +266,6 @@ window.addEventListener('load', function() {
 window.M1Digital = {
     toggleTheme,
     toggleMobileMenu,
+    toggleFAQ,
     initializeTheme
 };
