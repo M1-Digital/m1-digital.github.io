@@ -5,11 +5,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact Us - M1 Digital</title>
     
+    <!-- Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-XXXXXXXXXX');
+    </script>
+
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
-    
+
     <!-- Styles -->
     <link rel="stylesheet" href="styles.css">
     
@@ -25,14 +34,53 @@
     <meta property="og:url" content="https://www.m1-digital.com/contact">
     
     <!-- Favicon -->
-    <link rel="icon" type="image/x-icon" href="/favicon.ico">
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="Contact M1 Digital - Blockchain Payment Solutions">
+    <meta name="twitter:description" content="Ready to transform your payment infrastructure? Contact M1 Digital for blockchain payment solutions and consultations.">
+
+    <!-- JSON-LD Structured Data -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "LocalBusiness",
+        "name": "M1 Digital Pty Ltd",
+        "url": "https://www.m1-digital.com",
+        "logo": "https://www.m1-digital.com/favicon.svg",
+        "description": "Blockchain payment solutions and fintech consulting.",
+        "telephone": "+61395212888",
+        "email": "info@m1-digital.com",
+        "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "Level 2, 696 Bourke Street",
+            "addressLocality": "Melbourne",
+            "addressRegion": "VIC",
+            "postalCode": "3000",
+            "addressCountry": "AU"
+        },
+        "openingHoursSpecification": [
+            {
+                "@type": "OpeningHoursSpecification",
+                "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+                "opens": "08:00",
+                "closes": "18:00"
+            }
+        ]
+    }
+    </script>
 </head>
 <body data-theme="light">
+    <!-- Skip to content -->
+    <a href="#main-content" class="skip-link">Skip to main content</a>
+
     <!-- Navigation -->
-    <nav>
+    <nav role="navigation" aria-label="Main navigation">
         <div class="nav-container">
             <div class="logo">
-                <svg class="logo-svg" viewBox="0 0 644.31 173.18" xmlns="http://www.w3.org/2000/svg">
+                <a href="index.html" aria-label="M1 Digital - Home">
+                <svg class="logo-svg" viewBox="0 0 644.31 173.18" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="M1 Digital logo">
                     <g>
                         <path class="logo-text" d="M257.4,87.72v79.92h-6.85v-79.92h6.85ZM272.71,167.64h-18.32l.11-5.82h18.21c5.83,0,10.85-1.28,15.06-3.84,4.21-2.56,7.47-6.14,9.77-10.73,2.3-4.59,3.45-9.91,3.45-15.95v-7.41c0-4.61-.66-8.78-1.98-12.52-1.32-3.73-3.2-6.92-5.65-9.58s-5.37-4.69-8.77-6.12c-3.4-1.43-7.19-2.14-11.39-2.14h-19.15v-5.82h19.15c5.05,0,9.69.85,13.92,2.55,4.23,1.7,7.9,4.15,11,7.36,3.1,3.2,5.49,7.04,7.18,11.5,1.69,4.46,2.53,9.44,2.53,14.93v7.25c0,5.49-.84,10.47-2.53,14.93-1.69,4.46-4.09,8.29-7.21,11.47-3.12,3.18-6.82,5.64-11.11,7.36-4.29,1.72-9.05,2.58-14.28,2.58Z"></path>
                         <path class="logo-text" d="M333.62,87.72v79.92h-6.85v-79.92h6.85Z"></path>
@@ -47,30 +95,32 @@
                         <path class="logo-accent" d="M125.94,95.61l-4.76,10.46c-3.23,5.13-8.25,7.7-15.08,7.7h-11.38c-6.83,0-11.85-2.56-15.08-7.7l-26.78-39.22v97.66c0,5.77-3.41,8.66-10.24,8.66H10.24c-6.83,0-10.24-2.89-10.24-8.66V8.66C0,2.88,3.41,0,10.24,0h45.8c5.69,0,10.05,2.41,13.08,7.22l25.6,39.2"></path>
                     </g>
                 </svg>
+                </a>
             </div>
-            
+
             <ul class="nav-links">
                 <li><a href="index.html">Home</a></li>
                 <li><a href="./index.html#about">About</a></li>
                 <li><a href="./index.html#services">Services</a></li>
                 <li><a href="./index.html#technology">Technology</a></li>
+                <li><a href="./news.html">News</a></li>
                 <li><a href="./contact.html" class="active">Contact</a></li>
             </ul>
-            
+
             <div class="nav-right">
-                <div class="theme-toggle" onclick="toggleTheme()">
+                <button class="theme-toggle" onclick="toggleTheme()" aria-label="Toggle dark mode">
                     <span class="theme-icon">🌙</span>
-                </div>
-                <div class="mobile-menu" onclick="toggleMobileMenu()">
+                </button>
+                <button class="mobile-menu" onclick="toggleMobileMenu()" aria-label="Toggle navigation menu" aria-expanded="false">
                     <span></span>
                     <span></span>
                     <span></span>
-                </div>
+                </button>
             </div>
         </div>
     </nav>
 
-    <main>
+    <main id="main-content">
         <!-- Hero Section -->
         <section class="hero-section">
             <div class="hero-content">
@@ -127,9 +177,8 @@
                 <h2 class="section-title">Business Hours</h2>
                 <div class="contact-card">
                     <div class="contact-info">
-                        <div><strong>Monday - Friday:</strong> 9:00 AM - 6:00 PM AEST</div>
-                        <div><strong>Saturday:</strong> 10:00 AM - 2:00 PM AEST</div>
-                        <div><strong>Sunday:</strong> Closed</div>
+                        <div><strong>Monday - Friday:</strong> 8:00 AM - 6:00 PM AEST</div>
+                        <div><strong>Saturday - Sunday:</strong> Closed</div>
                         <div><strong>Emergency Support:</strong> Available 24/7 for enterprise clients</div>
                     </div>
                 </div>
@@ -155,7 +204,7 @@
                 <h2 class="section-title">Frequently Asked Questions</h2>
                 <div class="faq-grid">
                     <div class="faq-item">
-                        <div class="faq-question" onclick="toggleFAQ(this)">
+                        <div class="faq-question" role="button" tabindex="0" aria-expanded="false" onclick="toggleFAQ(this)" onkeydown="if(event.key==='Enter'||event.key===' '){event.preventDefault();toggleFAQ(this)}">
                             How long does implementation typically take?
                             <span class="faq-toggle">▼</span>
                         </div>
@@ -165,7 +214,7 @@
                     </div>
 
                     <div class="faq-item">
-                        <div class="faq-question" onclick="toggleFAQ(this)">
+                        <div class="faq-question" role="button" tabindex="0" aria-expanded="false" onclick="toggleFAQ(this)" onkeydown="if(event.key==='Enter'||event.key===' '){event.preventDefault();toggleFAQ(this)}">
                             Do you provide ongoing support?
                             <span class="faq-toggle">▼</span>
                         </div>
@@ -175,7 +224,7 @@
                     </div>
 
                     <div class="faq-item">
-                        <div class="faq-question" onclick="toggleFAQ(this)">
+                        <div class="faq-question" role="button" tabindex="0" aria-expanded="false" onclick="toggleFAQ(this)" onkeydown="if(event.key==='Enter'||event.key===' '){event.preventDefault();toggleFAQ(this)}">
                             How secure are blockchain payments?
                             <span class="faq-toggle">▼</span>
                         </div>
@@ -185,7 +234,7 @@
                     </div>
 
                     <div class="faq-item">
-                        <div class="faq-question" onclick="toggleFAQ(this)">
+                        <div class="faq-question" role="button" tabindex="0" aria-expanded="false" onclick="toggleFAQ(this)" onkeydown="if(event.key==='Enter'||event.key===' '){event.preventDefault();toggleFAQ(this)}">
                             Can you integrate with our existing systems?
                             <span class="faq-toggle">▼</span>
                         </div>
@@ -195,7 +244,7 @@
                     </div>
 
                     <div class="faq-item">
-                        <div class="faq-question" onclick="toggleFAQ(this)">
+                        <div class="faq-question" role="button" tabindex="0" aria-expanded="false" onclick="toggleFAQ(this)" onkeydown="if(event.key==='Enter'||event.key===' '){event.preventDefault();toggleFAQ(this)}">
                             What cryptocurrencies do you support?
                             <span class="faq-toggle">▼</span>
                         </div>
@@ -213,7 +262,7 @@
                     <p class="cta-text">Contact our team today to discover how M1 Digital can transform your payment infrastructure with cutting-edge blockchain technology.</p>
                     <div class="cta-buttons">
                         <a href="mailto:info@m1-digital.com" class="cta-button primary">Contact Us Now</a>
-                        <a href="#" class="cta-button">Schedule Consultation</a>
+                        <a href="mailto:sales@m1-digital.com?subject=Schedule%20Consultation" class="cta-button">Schedule Consultation</a>
                         <a href="./index.html#services" class="cta-button">Learn About Our Services</a>
                     </div>
                 </div>
@@ -229,7 +278,11 @@
                 <a href="./index.html#about">About</a>
                 <a href="./index.html#services">Services</a>
                 <a href="./index.html#technology">Technology</a>
+                <a href="./news.html">News</a>
                 <a href="./contact.html">Contact</a>
+            </div>
+            <div class="footer-links">
+                <a href="./privacy.html">Privacy Policy</a>
             </div>
             <div class="copyright">
                 <p><strong>© 2025 M1 Digital Pty Ltd. All rights reserved.</strong></p>

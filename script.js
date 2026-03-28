@@ -17,7 +17,7 @@ function toggleTheme() {
     try {
         localStorage.setItem('m1-digital-theme', newTheme);
     } catch(e) {
-        console.log('Local storage not available');
+        // localStorage not available
     }
 }
 
@@ -28,11 +28,13 @@ function toggleMobileMenu() {
     const navLinks = document.querySelector('.nav-links');
     const mobileMenu = document.querySelector('.mobile-menu');
     const spans = mobileMenu.querySelectorAll('span');
-    
+
     navLinks.classList.toggle('active');
-    
+    const isOpen = navLinks.classList.contains('active');
+    mobileMenu.setAttribute('aria-expanded', isOpen);
+
     // Animate hamburger menu
-    if (navLinks.classList.contains('active')) {
+    if (isOpen) {
         spans[0].style.transform = 'rotate(45deg) translate(5px, 5px)';
         spans[1].style.opacity = '0';
         spans[2].style.transform = 'rotate(-45deg) translate(7px, -6px)';
@@ -50,15 +52,18 @@ function toggleFAQ(element) {
     const faqItem = element.parentNode;
     const answer = faqItem.querySelector('.faq-answer');
     const toggle = element.querySelector('.faq-toggle');
-    
-    if (answer.style.display === 'none' || answer.style.display === '') {
+    const isOpen = answer.style.display === 'block';
+
+    if (!isOpen) {
         answer.style.display = 'block';
         faqItem.classList.add('active');
         toggle.style.transform = 'rotate(180deg)';
+        element.setAttribute('aria-expanded', 'true');
     } else {
         answer.style.display = 'none';
         faqItem.classList.remove('active');
         toggle.style.transform = 'rotate(0deg)';
+        element.setAttribute('aria-expanded', 'false');
     }
 }
 
@@ -191,8 +196,6 @@ function initializeFormHandling() {
         const form = e.target;
         if (form.tagName === 'FORM') {
             e.preventDefault();
-            // Add form handling logic here
-            console.log('Form submitted:', new FormData(form));
         }
     });
 }
@@ -230,7 +233,6 @@ document.addEventListener('DOMContentLoaded', function() {
     initializeFormHandling();
     initializeKeyboardNavigation();
     
-    console.log('M1 Digital website initialized successfully');
 });
 
 /**
@@ -252,15 +254,6 @@ window.addEventListener('resize', function() {
     }
 });
 
-/**
- * Add performance monitoring
- */
-window.addEventListener('load', function() {
-    if ('performance' in window) {
-        const loadTime = performance.timing.loadEventEnd - performance.timing.navigationStart;
-        console.log(`M1 Digital page loaded in ${loadTime}ms`);
-    }
-});
 
 // Export functions for potential external use
 window.M1Digital = {
