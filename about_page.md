@@ -9,15 +9,15 @@
 
 ## About M1 Digital
 
-M1 Digital is a cutting-edge fintech company specializing in blockchain technology and next-generation payment solutions. We bridge the gap between traditional finance and the digital economy, delivering secure, scalable, and innovative payment infrastructure for businesses worldwide.
+M1 Digital is a cutting-edge fintech company specializing in blockchain technology, artificial intelligence, and next-generation payment solutions. We bridge the gap between traditional finance and the digital economy, delivering secure, scalable, and innovative payment infrastructure powered by blockchain and AI for businesses worldwide.
 
 ### Our Mission
 
-To revolutionize how businesses process payments by leveraging blockchain technology to create faster, more secure, and cost-effective financial transactions.
+To revolutionize how businesses process payments by leveraging blockchain technology and artificial intelligence — including Large Quantitative Models — to create faster, more secure, and cost-effective financial transactions.
 
 ### Our Vision
 
-To become the leading provider of blockchain payment solutions in Australia and the Asia-Pacific region, empowering businesses to embrace the future of digital finance.
+To become the leading provider of blockchain payment and AI-driven financial solutions in Australia and the Asia-Pacific region, empowering businesses to embrace the future of digital finance.
 
 ---
 

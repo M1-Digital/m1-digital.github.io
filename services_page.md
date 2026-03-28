@@ -9,7 +9,7 @@
 
 ## Comprehensive Blockchain Payment Solutions
 
-M1 Digital offers a full suite of blockchain payment services designed to meet the diverse needs of modern businesses. Our solutions combine cutting-edge technology with enterprise-grade reliability.
+M1 Digital offers a full suite of blockchain payment and artificial intelligence services designed to meet the diverse needs of modern businesses. Our solutions combine cutting-edge technology with enterprise-grade reliability.
 
 ---
 
@@ -121,6 +121,43 @@ Ensure your blockchain payment solutions meet all regulatory requirements with c
 - Security vulnerability testing
 - Compliance monitoring
 - Audit preparation and support
+
+---
+
+## Artificial Intelligence & Large Quantitative Models
+
+### AI-Powered Financial Solutions
+**Intelligent Automation & Insights**
+We harness artificial intelligence and Large Quantitative Models (LQMs) to deliver advanced financial analytics, predictive modelling, and intelligent automation across payment ecosystems.
+
+**AI Capabilities:**
+- Predictive analytics for market trends and payment flows
+- Large Quantitative Models for risk assessment and portfolio optimisation
+- Intelligent fraud detection and prevention
+- Natural language processing for financial data extraction
+- Automated compliance monitoring and reporting
+
+### Quantitative Modelling & Analytics
+**Data-Driven Decision Making**
+Our Large Quantitative Models process vast datasets to uncover patterns, forecast outcomes, and drive smarter financial decisions for businesses.
+
+**Applications:**
+- Real-time risk scoring and credit assessment
+- Payment flow optimisation and forecasting
+- Market analysis and trend prediction
+- Customer behaviour modelling
+- Anomaly detection across transaction networks
+
+### AI Integration Services
+**Embedding Intelligence into Your Operations**
+We integrate AI capabilities directly into your existing financial infrastructure, enhancing decision-making and operational efficiency.
+
+**Integration Options:**
+- AI-enhanced payment routing and optimisation
+- Intelligent customer onboarding (KYC/AML)
+- Automated regulatory reporting
+- Predictive maintenance for payment infrastructure
+- Custom AI model development and deployment
 
 ---
 

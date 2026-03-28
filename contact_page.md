@@ -17,7 +17,7 @@ Ready to transform your payment infrastructure with blockchain technology? Our t
 
 ### General Inquiries
 **Email:** info@m1-digital.com  
-**Phone:** +61 3 521 2888  
+**Phone:** +61 3 9521 2888  
 **Website:** www.m1-digital.com
 
 ### Business Address
@@ -40,22 +40,22 @@ Australia
 
 ### Sales & Business Development
 **Email:** sales@m1-digital.com  
-**Phone:** +61 3 521 2888  
+**Phone:** +61 3 9521 2888  
 **Focus:** New client inquiries, solution consultations, partnership opportunities
 
 ### Technical Support
 **Email:** support@m1-digital.com
-**Phone:** +61 3 521 2888  
+**Phone:** +61 3 9521 2888  
 **Focus:** API integration, technical documentation, system issues
 
 ### Partnership & Alliances
 **Email:** partnerships@m1-digital.com  
-**Phone:** +61 3 521 2888  
+**Phone:** +61 3 9521 2888  
 **Focus:** Strategic partnerships, integration opportunities, channel partnerships
 
 ### Media & Press
 **Email:** media@m1-digital.com  
-**Phone:** +61 3 521 2888  
+**Phone:** +61 3 9521 2888  
 **Focus:** Press inquiries, media relations, interview requests
 
 ---
@@ -193,8 +193,8 @@ A: We work with legal experts to ensure compliance across all jurisdictions wher
 
 ### Melbourne Headquarters
 **Address:** Level 2, 696 Bourke Street, Melbourne, VIC 3000  
-**Phone:** +61 3 521 2888  info
-**Email:** melbourne@m1-digital.com
+**Phone:** +61 3 9521 2888
+**Email:** info@m1-digital.com
 
 
 ---

@@ -7,9 +7,9 @@
 
 ---
 
-## Pioneering the Future of Blockchain Payments
+## Pioneering the Future of Blockchain Payments & AI
 
-**M1 Digital** is a cutting-edge fintech company specializing in blockchain technology and next-generation payment solutions. We bridge the gap between traditional finance and the digital economy, delivering secure, scalable, and innovative payment infrastructure for businesses worldwide.
+**M1 Digital** is a cutting-edge fintech company specializing in blockchain technology, artificial intelligence, and next-generation payment solutions. We bridge the gap between traditional finance and the digital economy, delivering secure, scalable, and innovative payment infrastructure powered by blockchain and AI for businesses worldwide.
 
 ### Why Choose M1 Digital?
 
@@ -38,8 +38,11 @@ Custom blockchain payment gateways, cross-border processing, and smart contract 
 **Digital Payment Infrastructure**  
 Real-time payment processing systems with multi-currency support, advanced fraud detection, and API-first architecture.
 
-**Financial Technology Consulting**  
+**Financial Technology Consulting**
 Blockchain strategy, digital transformation, regulatory compliance, and custom fintech application development.
+
+**Artificial Intelligence & Quantitative Models**
+Advanced AI solutions and Large Quantitative Models for predictive analytics, risk assessment, fraud detection, and intelligent automation of financial processes.
 
 [Learn More About Our Services →](services.html)
 
@@ -56,4 +59,4 @@ M1 Digital delivers enterprise-grade blockchain payment solutions that accelerat
 
 **© 2025 M1 Digital Pty Ltd. All rights reserved.**
 
-*Empowering businesses with next-generation blockchain payment solutions.*
+*Empowering businesses with next-generation blockchain payment and AI solutions.*

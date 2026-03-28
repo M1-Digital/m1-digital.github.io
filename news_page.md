@@ -214,8 +214,8 @@ M1 Digital launches a monthly webinar series covering blockchain payment topics,
 For media inquiries, press releases, and interview requests, please contact our media relations team.
 
 **Media Relations:**  
-Email: media@m1digital.com.au  
-Phone: +61 2 8XXX XXXX  
+Email: media@m1-digital.com  
+Phone: +61 3 9521 2888  
 
 ---
 
