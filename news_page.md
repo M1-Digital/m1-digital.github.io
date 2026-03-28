@@ -15,6 +15,17 @@ Stay informed about M1 Digital's latest developments, industry insights, and blo
 
 ## Recent Company News
 
+### What Are Large Quantitative Models? How LQMs Are Transforming Blockchain Fintech
+**March 28, 2026**
+
+Large Quantitative Models (LQMs) are a new class of AI architecture designed from the ground up to reason over numerical and statistical data at scale. Where a Large Language Model learns the probability of the next word in a sentence, an LQM learns the probability distribution of the next value in a time series, the covariance structure across a portfolio, or the risk-adjusted return of a trading strategy.
+
+Blockchain-based finance introduces unique challenges that traditional quantitative models were never designed to handle — 24/7 markets, second-level settlement, terabytes of on-chain data, and novel DeFi instruments with no traditional analogue. LQMs address these challenges across five critical areas: real-time risk assessment, fraud detection and AML, smart-contract optimisation, cross-chain liquidity forecasting, and portfolio and treasury management.
+
+[Read Full Article](articles/lqm-blockchain-fintech.html)
+
+---
+
 ### Q3 2025 - Platform Enhancement Launch
 **July 15, 2025**
 
@@ -231,7 +242,7 @@ Subscribe to our newsletter for the latest company updates, industry insights, a
 - Company news and announcements
 - Event invitations and webinar access
 
-[Subscribe to Newsletter](contact.html) | [Follow Us on LinkedIn] | [Contact Our Team](contact.html)
+[Subscribe to Newsletter](contact.html) | [Follow Us on LinkedIn](https://www.linkedin.com/company/m1-digital/) | [Contact Our Team](contact.html)
 
 ---
 

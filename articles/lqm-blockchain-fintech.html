@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>What Are Large Quantitative Models? LQMs for Blockchain Fintech - M1 Digital</title>
+
+    <!-- Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-XXXXXXXXXX');
+    </script>
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="../styles.css">
+
+    <!-- Meta Tags -->
+    <meta name="description" content="Large Quantitative Models (LQMs) are a new class of AI purpose-built for numerical reasoning in finance. Learn how LQMs power risk analysis, fraud detection, and smart-contract optimisation in blockchain fintech.">
+    <meta name="keywords" content="large quantitative models, LQM, AI finance, blockchain fintech, quantitative AI, risk modelling, fraud detection, M1 Digital">
+    <meta name="author" content="M1 Digital Pty Ltd">
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="What Are Large Quantitative Models? LQMs for Blockchain Fintech">
+    <meta property="og:description" content="Large Quantitative Models (LQMs) are a new class of AI purpose-built for numerical reasoning in finance. Learn how they transform blockchain fintech.">
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://www.m1-digital.com/articles/lqm-blockchain-fintech.html">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="What Are Large Quantitative Models? LQMs for Blockchain Fintech">
+    <meta name="twitter:description" content="Large Quantitative Models (LQMs) are a new class of AI purpose-built for numerical reasoning in finance.">
+</head>
+<body data-theme="light">
+    <!-- Skip to content -->
+    <a href="#main-content" class="skip-link">Skip to main content</a>
+
+    <!-- Navigation -->
+    <nav role="navigation" aria-label="Main navigation">
+        <div class="nav-container">
+            <div class="logo">
+                <a href="../index.html" aria-label="M1 Digital - Home">
+                <svg class="logo-svg" viewBox="0 0 644.31 173.18" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="M1 Digital logo">
+                    <g>
+                        <path class="logo-text" d="M257.4,87.72v79.92h-6.85v-79.92h6.85ZM272.71,167.64h-18.32l.11-5.82h18.21c5.83,0,10.85-1.28,15.06-3.84,4.21-2.56,7.47-6.14,9.77-10.73,2.3-4.59,3.45-9.91,3.45-15.95v-7.41c0-4.61-.66-8.78-1.98-12.52-1.32-3.73-3.2-6.92-5.65-9.58s-5.37-4.69-8.77-6.12c-3.4-1.43-7.19-2.14-11.39-2.14h-19.15v-5.82h19.15c5.05,0,9.69.85,13.92,2.55,4.23,1.7,7.9,4.15,11,7.36,3.1,3.2,5.49,7.04,7.18,11.5,1.69,4.46,2.53,9.44,2.53,14.93v7.25c0,5.49-.84,10.47-2.53,14.93-1.69,4.46-4.09,8.29-7.21,11.47-3.12,3.18-6.82,5.64-11.11,7.36-4.29,1.72-9.05,2.58-14.28,2.58Z"></path>
+                        <path class="logo-text" d="M333.62,87.72v79.92h-6.85v-79.92h6.85Z"></path>
+                        <path class="logo-text" d="M414.19,129.6v28.49c-.93,1.32-2.53,2.81-4.82,4.47s-5.34,3.11-9.16,4.34c-3.82,1.23-8.56,1.84-14.2,1.84-4.79,0-9.17-.85-13.14-2.55-3.97-1.7-7.42-4.15-10.33-7.36-2.91-3.2-5.16-7.05-6.74-11.55-1.58-4.5-2.37-9.53-2.37-15.1v-9.66c0-5.49.72-10.44,2.17-14.85,1.45-4.41,3.54-8.19,6.29-11.33,2.75-3.15,6.06-5.55,9.94-7.22,3.88-1.67,8.23-2.5,13.06-2.5,6.05,0,11.13,1.02,15.23,3.07,4.1,2.05,7.31,4.86,9.63,8.43,2.32,3.57,3.78,7.6,4.37,12.1h-6.9c-.52-3.18-1.6-6.12-3.23-8.81-1.63-2.69-4-4.86-7.1-6.5-3.1-1.65-7.1-2.47-12-2.47-3.94,0-7.42.71-10.47,2.14-3.04,1.43-5.61,3.46-7.71,6.09-2.1,2.64-3.68,5.79-4.76,9.47-1.08,3.68-1.61,7.77-1.61,12.27v9.77c0,4.65.6,8.86,1.81,12.63,1.21,3.77,2.94,7.01,5.21,9.72,2.26,2.71,4.97,4.79,8.13,6.23,3.15,1.45,6.66,2.17,10.52,2.17,4.12,0,7.63-.38,10.52-1.15,2.9-.77,5.22-1.69,6.99-2.77,1.76-1.08,3.03-2.08,3.81-2.99v-20.58h-21.77v-5.82h28.62Z"></path>
+                        <path class="logo-text" d="M442.03,87.72v79.92h-6.85v-79.92h6.85Z"></path>
+                        <path class="logo-text" d="M517.41,87.72v5.82h-62.3v-5.82h62.3ZM489.63,87.72v79.92h-6.79v-79.92h6.79Z"></path>
+                        <path class="logo-text" d="M552.77,92.49l-28.06,75.15h-7.13l30.62-79.92h5.01l-.45,4.78ZM573.31,139.43v5.82h-43.09v-5.82h43.09ZM578.27,167.64l-28.06-75.15-.39-4.78h4.96l30.68,79.92h-7.18Z"></path>
+                        <path class="logo-text" d="M604.33,87.72v79.92h-6.9v-79.92h6.9ZM644.31,161.82v5.82h-42.04v-5.82h42.04Z"></path>
+                    </g>
+                    <g>
+                        <path class="logo-text" d="M109.64,53.7s-5.05-5.7-.47-13.01c.47-.72,21.42-33.47,21.42-33.47,3.03-4.81,7.4-7.22,13.09-7.22h46.08c6.83,0,10.24,2.88,10.24,8.66v155.86c0,5.77-3.42,8.66-10.24,8.66h-31.87c-6.83,0-10.24-2.89-10.24-8.66v-99.26l-12,15.74s-3,3.88-7.32-.26"></path>
+                        <path class="logo-accent" d="M125.94,95.61l-4.76,10.46c-3.23,5.13-8.25,7.7-15.08,7.7h-11.38c-6.83,0-11.85-2.56-15.08-7.7l-26.78-39.22v97.66c0,5.77-3.41,8.66-10.24,8.66H10.24c-6.83,0-10.24-2.89-10.24-8.66V8.66C0,2.88,3.41,0,10.24,0h45.8c5.69,0,10.05,2.41,13.08,7.22l25.6,39.2"></path>
+                    </g>
+                </svg>
+                </a>
+            </div>
+
+            <ul class="nav-links">
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="../index.html#about">About</a></li>
+                <li><a href="../index.html#services">Services</a></li>
+                <li><a href="../index.html#technology">Technology</a></li>
+                <li><a href="../news.html" class="active">News</a></li>
+                <li><a href="../contact.html">Contact</a></li>
+            </ul>
+
+            <div class="nav-right">
+                <button class="theme-toggle" onclick="toggleTheme()" aria-label="Toggle dark mode">
+                    <span class="theme-icon">&#127769;</span>
+                </button>
+                <button class="mobile-menu" onclick="toggleMobileMenu()" aria-label="Toggle navigation menu" aria-expanded="false">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <main id="main-content">
+        <!-- Hero Section -->
+        <section class="hero-section">
+            <div class="hero-content">
+                <h1 class="hero-title">Large Quantitative Models &amp; Blockchain Fintech</h1>
+                <p class="hero-subtitle">How a new class of AI purpose-built for numerical reasoning is transforming risk analysis, fraud detection, and smart-contract optimisation in decentralised finance.</p>
+            </div>
+        </section>
+
+        <div class="legal-container">
+            <article class="legal-section">
+                <p class="legal-effective">March 28, 2026 &mdash; M1 Digital Research</p>
+
+                <h2>What Are Large Quantitative Models?</h2>
+
+                <p>Large Language Models (LLMs) such as GPT and Claude have reshaped how businesses interact with unstructured text. But finance does not run on text alone &mdash; it runs on numbers: prices, volatilities, order flows, on-chain gas fees, and liquidity curves. A Large Quantitative Model (LQM) is an AI architecture designed from the ground up to reason over numerical and statistical data at scale.</p>
+
+                <p>Where an LLM learns the probability of the next word in a sentence, an LQM learns the probability distribution of the next value in a time series, the covariance structure across a portfolio, or the risk-adjusted return of a trading strategy. LQMs combine elements of deep learning, stochastic modelling, and reinforcement learning into a single foundation model that can be fine-tuned for a wide range of quantitative tasks.</p>
+
+                <h3>Key Characteristics of LQMs</h3>
+                <ul>
+                    <li><strong>Natively numerical.</strong> LQMs are pre-trained on vast datasets of financial time series, market microstructure data, and economic indicators rather than natural-language corpora. Their internal representations are optimised for continuous, high-dimensional numerical inputs.</li>
+                    <li><strong>Distribution-aware.</strong> Instead of producing point estimates, LQMs output full probability distributions &mdash; capturing tail risk, skewness, and kurtosis. This makes them naturally suited to Value-at-Risk (VaR) calculations, stress testing, and scenario analysis.</li>
+                    <li><strong>Multi-horizon.</strong> A single LQM can generate forecasts across multiple time horizons simultaneously &mdash; from millisecond-level order-book dynamics to quarterly macroeconomic trends &mdash; sharing learned structure across scales.</li>
+                    <li><strong>Composable.</strong> LQMs expose a quantitative reasoning layer that can be called by other AI agents, smart contracts, or risk engines, enabling modular integration into larger systems.</li>
+                </ul>
+
+                <h2>Why Blockchain Financial Technology Needs LQMs</h2>
+
+                <p>Blockchain-based finance introduces unique challenges that traditional quantitative models were never designed to handle. On-chain markets operate 24/7, settle in seconds, and generate publicly auditable transaction logs measured in terabytes per year. At the same time, decentralised finance (DeFi) protocols create novel instruments &mdash; liquidity pools, automated market makers, yield aggregators &mdash; with risk profiles that have no direct analogue in traditional finance.</p>
+
+                <p>LQMs address these challenges in several critical areas.</p>
+
+                <h3>1. Real-Time Risk Assessment</h3>
+                <p>Blockchain transactions settle in seconds, not days. A risk model that updates once per hour is too slow when a stablecoin can depeg in minutes or a liquidity pool can be drained in a single block. LQMs process streaming on-chain data &mdash; mempool activity, bridge flows, oracle price feeds &mdash; and update risk scores in real time. At M1 Digital, our AI-powered risk engine uses LQM inference to flag anomalous transaction patterns before settlement, giving merchants and payment processors a critical window to act.</p>
+
+                <h3>2. Fraud Detection and AML</h3>
+                <p>Traditional rule-based AML systems generate high false-positive rates because they rely on static thresholds. LQMs learn the baseline statistical behaviour of wallets, addresses, and payment flows, then detect deviations that rules-based systems miss: structuring across multiple chains, mixer obfuscation patterns, and flash-loan-funded wash trading. Because LQMs output calibrated probabilities rather than binary flags, compliance teams can prioritise investigations by expected risk severity, reducing alert fatigue while improving detection rates.</p>
+
+                <h3>3. Smart-Contract Optimisation</h3>
+                <p>DeFi smart contracts often contain tuneable parameters &mdash; fee tiers, collateralisation ratios, liquidation thresholds &mdash; that directly affect protocol safety and capital efficiency. LQMs can simulate millions of market scenarios against a contract's logic, identify parameter settings that minimise insolvency risk for a given capital efficiency target, and continuously recommend adjustments as market conditions evolve. This is especially valuable for stablecoin issuers and lending protocols where miscalibrated parameters can trigger cascading liquidations.</p>
+
+                <h3>4. Cross-Chain Liquidity Forecasting</h3>
+                <p>As blockchain payments move across multiple networks &mdash; Ethereum, Solana, Polygon, and emerging Layer 2 rollups &mdash; liquidity is fragmented. LQMs trained on cross-chain flow data can forecast where liquidity will be available, predict bridge congestion, and recommend optimal routing for large-value transfers. For payment processors like M1 Digital, this translates directly into lower slippage and faster settlement for merchants accepting stablecoin payments.</p>
+
+                <h3>5. Portfolio and Treasury Management</h3>
+                <p>Businesses that hold digital assets on their balance sheet face a unique portfolio management challenge: high volatility, correlated tail events, and 24/7 exposure. LQMs provide institutional-grade risk analytics for digital-asset treasuries, including dynamic hedging recommendations, stablecoin reserve adequacy testing, and scenario analysis that accounts for on-chain contagion effects.</p>
+
+                <h2>How LQMs Differ from LLMs in Finance</h2>
+
+                <p>It is tempting to apply general-purpose LLMs to financial problems by feeding them numerical data as text. This approach has fundamental limitations:</p>
+
+                <ul>
+                    <li><strong>Tokenisation loss.</strong> LLMs tokenise numbers as character sequences, destroying magnitude and precision information. The number 1,000,000 may be split across multiple tokens with no inherent understanding that it is a thousand times larger than 1,000. LQMs represent numbers natively as continuous values.</li>
+                    <li><strong>Calibration.</strong> LLMs are not trained to produce calibrated probability estimates. When asked "What is the probability that ETH drops 10% tomorrow?", an LLM generates plausible-sounding text, not a statistically calibrated forecast. LQMs are trained and evaluated on calibration metrics &mdash; their 5% confidence intervals genuinely contain outcomes 5% of the time.</li>
+                    <li><strong>Temporal coherence.</strong> LLMs process text as a flat sequence. LQMs encode temporal structure explicitly &mdash; seasonality, mean reversion, regime changes &mdash; enabling them to distinguish a trending market from a mean-reverting one and adjust forecasts accordingly.</li>
+                    <li><strong>Computational efficiency.</strong> Numerical inference on a pre-trained LQM is orders of magnitude faster than prompting an LLM with a chain-of-thought arithmetic task. This matters when you need risk scores on thousands of transactions per second.</li>
+                </ul>
+
+                <h2>M1 Digital's Approach</h2>
+
+                <p>At M1 Digital, we integrate LQM capabilities across our blockchain payment infrastructure:</p>
+
+                <ul>
+                    <li><strong>Risk Engine.</strong> Our LQM-powered risk engine, launched in March 2026, analyses transaction patterns in real time to detect anomalies and flag potential fraud before settlement. It processes data from multiple blockchains simultaneously, providing a unified risk view across all supported networks.</li>
+                    <li><strong>Payment Routing.</strong> LQM-based liquidity forecasting optimises how merchant payments are routed across chains and stablecoin pairs, minimising slippage and ensuring next-day AUD settlement reliability.</li>
+                    <li><strong>Compliance.</strong> Probabilistic AML scoring driven by LQMs helps us maintain AUSTRAC compliance while reducing false-positive alert volume, ensuring that our compliance team focuses on genuine risks.</li>
+                    <li><strong>Merchant Analytics.</strong> We surface LQM-generated insights to merchants through our dashboard &mdash; transaction volume forecasts, settlement risk indicators, and fee optimisation recommendations &mdash; turning raw blockchain data into actionable business intelligence.</li>
+                </ul>
+
+                <h2>The Road Ahead</h2>
+
+                <p>LQMs are still a maturing technology. Current research frontiers include multi-modal quantitative models that combine numerical data with on-chain event logs and natural-language governance proposals; federated LQM training that allows institutions to improve models collaboratively without sharing proprietary data; and on-chain LQM inference where lightweight model checkpoints are executed within smart contracts for fully decentralised risk assessment.</p>
+
+                <p>As blockchain financial infrastructure continues to scale &mdash; processing more transactions, supporting more asset types, and spanning more networks &mdash; the need for AI that reasons natively about numbers, risk, and uncertainty will only grow. Large Quantitative Models represent a foundational shift: from adapting language models to finance, to building quantitative intelligence from first principles.</p>
+
+                <p>M1 Digital is committed to advancing LQM research and integrating these capabilities into our payment infrastructure, ensuring that Australian businesses have access to the most sophisticated risk and analytics technology available in blockchain finance.</p>
+
+                <div style="margin-top: 3rem; padding-top: 2rem; border-top: 1px solid var(--border-color);">
+                    <p><a href="../news.html" class="learn-more">&larr; Back to News</a></p>
+                </div>
+            </article>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-links">
+                <a href="../index.html">Home</a>
+                <a href="../index.html#about">About</a>
+                <a href="../index.html#services">Services</a>
+                <a href="../index.html#technology">Technology</a>
+                <a href="../news.html">News</a>
+                <a href="../contact.html">Contact</a>
+            </div>
+            <div class="footer-links">
+                <a href="../privacy.html">Privacy Policy</a>
+                <a href="https://www.linkedin.com/company/m1-digital/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+            </div>
+            <div class="copyright">
+                <p><strong>&copy; 2025 M1 Digital Pty Ltd. All rights reserved.</strong></p>
+                <p><em>Empowering businesses with next-generation blockchain payment and AI solutions.</em></p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="../script.js"></script>
+</body>
+</html>

@@ -182,7 +182,7 @@ A: We work with legal experts to ensure compliance across all jurisdictions wher
 
 ## Follow Us
 
-**LinkedIn:** [M1 Digital Australia]  
+**LinkedIn:** [M1 Digital](https://www.linkedin.com/company/m1-digital/)
 **Twitter:** [@M1Digital_AU]  
 **GitHub:** [M1Digital-Australia]  
 **YouTube:** [M1 Digital Channel]
