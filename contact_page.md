@@ -16,19 +16,14 @@ Ready to transform your payment infrastructure with blockchain technology? Our t
 ## Contact Information
 
 ### General Inquiries
-**Email:** info@m1digital.com.au  
-**Phone:** +61 2 8XXX XXXX  
-**Website:** www.m1digital.com.au
+**Email:** info@m1-digital.com  
+**Phone:** +61 3 521 2888  
+**Website:** www.m1-digital.com
 
 ### Business Address
 **M1 Digital Pty Ltd**  
-Level XX, XXX Collins Street  
+Level 2, 696 Bourke Street  
 Melbourne, VIC 3000  
-Australia
-
-**Sydney Office:**  
-Level XX, XXX George Street  
-Sydney, NSW 2000  
 Australia
 
 ---
@@ -36,8 +31,6 @@ Australia
 ## Business Hours
 
 **Monday - Friday:** 9:00 AM - 6:00 PM AEST  
-**Saturday:** 10:00 AM - 2:00 PM AEST  
-**Sunday:** Closed
 
 **Emergency Support:** Available 24/7 for enterprise clients
 
@@ -46,23 +39,23 @@ Australia
 ## Specialized Contact Teams
 
 ### Sales & Business Development
-**Email:** sales@m1digital.com.au  
-**Phone:** +61 2 8XXX XXXX  
+**Email:** sales@m1-digital.com  
+**Phone:** +61 3 521 2888  
 **Focus:** New client inquiries, solution consultations, partnership opportunities
 
 ### Technical Support
-**Email:** support@m1digital.com.au  
-**Phone:** +61 2 8XXX XXXX  
+**Email:** support@m1-digital.com
+**Phone:** +61 3 521 2888  
 **Focus:** API integration, technical documentation, system issues
 
 ### Partnership & Alliances
-**Email:** partnerships@m1digital.com.au  
-**Phone:** +61 2 8XXX XXXX  
+**Email:** partnerships@m1-digital.com  
+**Phone:** +61 3 521 2888  
 **Focus:** Strategic partnerships, integration opportunities, channel partnerships
 
 ### Media & Press
-**Email:** media@m1digital.com.au  
-**Phone:** +61 2 8XXX XXXX  
+**Email:** media@m1-digital.com  
+**Phone:** +61 3 521 2888  
 **Focus:** Press inquiries, media relations, interview requests
 
 ---
@@ -196,22 +189,13 @@ A: We work with legal experts to ensure compliance across all jurisdictions wher
 
 ---
 
-## Office Locations
+## Office Location
 
 ### Melbourne Headquarters
-**Address:** Level XX, XXX Collins Street, Melbourne, VIC 3000  
-**Phone:** +61 3 8XXX XXXX  
-**Email:** melbourne@m1digital.com.au
+**Address:** Level 2, 696 Bourke Street, Melbourne, VIC 3000  
+**Phone:** +61 3 521 2888  info
+**Email:** melbourne@m1-digital.com
 
-### Sydney Office
-**Address:** Level XX, XXX George Street, Sydney, NSW 2000  
-**Phone:** +61 2 8XXX XXXX  
-**Email:** sydney@m1digital.com.au
-
-### Brisbane Office
-**Address:** Level XX, XXX Queen Street, Brisbane, QLD 4000  
-**Phone:** +61 7 8XXX XXXX  
-**Email:** brisbane@m1digital.com.au
 
 ---
 
