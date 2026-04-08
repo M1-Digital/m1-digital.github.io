@@ -1575,7 +1575,7 @@ footer {
 
 .skip-link {
     position: absolute;
-    top: -40px;
+    top: -100px;
     left: 0;
     background: var(--primary-color);
     color: white;
@@ -1585,10 +1585,14 @@ footer {
     text-decoration: none;
     transition: top 0.3s ease;
     border-radius: 0 0 var(--radius-sm) 0;
+    clip: rect(0, 0, 0, 0);
+    overflow: hidden;
 }
 
 .skip-link:focus {
     top: 0;
+    clip: auto;
+    overflow: visible;
 }
 
 @media (prefers-reduced-motion: reduce) {
