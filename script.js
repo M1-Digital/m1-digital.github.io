@@ -1,4 +1,162 @@
-// M1 Digital - Interactive JavaScript Functions
+// M1 Digital - Interactive JavaScript
+
+/**
+ * Hero Canvas Particle Network
+ */
+function initHeroCanvas() {
+    const canvas = document.getElementById('hero-canvas');
+    if (!canvas) return;
+
+    const ctx = canvas.getContext('2d');
+    let width, height;
+    let particles = [];
+    let mouse = { x: null, y: null };
+    let animationId;
+
+    function isDarkMode() {
+        return document.body.getAttribute('data-theme') === 'dark';
+    }
+
+    const CONFIG = {
+        particleCount: 80,
+        maxDistance: 160,
+        particleSpeed: 0.3,
+        mouseRadius: 200,
+        get lineOpacity() { return isDarkMode() ? 0.12 : 0.2; },
+        particleMinSize: 1,
+        particleMaxSize: 2.5,
+        get color() { return isDarkMode() ? { r: 0, g: 102, b: 204 } : { r: 0, g: 80, b: 170 }; }
+    };
+
+    function resize() {
+        width = canvas.width = canvas.offsetWidth;
+        height = canvas.height = canvas.offsetHeight;
+    }
+
+    function createParticles() {
+        particles = [];
+        const count = Math.min(CONFIG.particleCount, Math.floor((width * height) / 12000));
+        for (let i = 0; i < count; i++) {
+            particles.push({
+                x: Math.random() * width,
+                y: Math.random() * height,
+                vx: (Math.random() - 0.5) * CONFIG.particleSpeed,
+                vy: (Math.random() - 0.5) * CONFIG.particleSpeed,
+                size: Math.random() * (CONFIG.particleMaxSize - CONFIG.particleMinSize) + CONFIG.particleMinSize,
+                opacity: Math.random() * 0.5 + 0.2
+            });
+        }
+    }
+
+    function drawParticle(p) {
+        ctx.beginPath();
+        ctx.arc(p.x, p.y, p.size, 0, Math.PI * 2);
+        ctx.fillStyle = `rgba(${CONFIG.color.r}, ${CONFIG.color.g}, ${CONFIG.color.b}, ${p.opacity})`;
+        ctx.fill();
+    }
+
+    function drawLine(p1, p2, dist) {
+        const opacity = (1 - dist / CONFIG.maxDistance) * CONFIG.lineOpacity;
+        ctx.beginPath();
+        ctx.moveTo(p1.x, p1.y);
+        ctx.lineTo(p2.x, p2.y);
+        ctx.strokeStyle = `rgba(${CONFIG.color.r}, ${CONFIG.color.g}, ${CONFIG.color.b}, ${opacity})`;
+        ctx.lineWidth = 0.8;
+        ctx.stroke();
+    }
+
+    function animate() {
+        ctx.clearRect(0, 0, width, height);
+
+        for (let i = 0; i < particles.length; i++) {
+            const p = particles[i];
+
+            // Move
+            p.x += p.vx;
+            p.y += p.vy;
+
+            // Bounce off edges
+            if (p.x < 0 || p.x > width) p.vx *= -1;
+            if (p.y < 0 || p.y > height) p.vy *= -1;
+
+            // Mouse interaction
+            if (mouse.x !== null) {
+                const dx = mouse.x - p.x;
+                const dy = mouse.y - p.y;
+                const dist = Math.sqrt(dx * dx + dy * dy);
+                if (dist < CONFIG.mouseRadius) {
+                    const force = (CONFIG.mouseRadius - dist) / CONFIG.mouseRadius * 0.008;
+                    p.vx -= dx * force;
+                    p.vy -= dy * force;
+                }
+            }
+
+            // Speed limit
+            const speed = Math.sqrt(p.vx * p.vx + p.vy * p.vy);
+            if (speed > 1) {
+                p.vx = (p.vx / speed) * 1;
+                p.vy = (p.vy / speed) * 1;
+            }
+
+            drawParticle(p);
+
+            // Lines between close particles
+            for (let j = i + 1; j < particles.length; j++) {
+                const p2 = particles[j];
+                const dx = p.x - p2.x;
+                const dy = p.y - p2.y;
+                const dist = Math.sqrt(dx * dx + dy * dy);
+                if (dist < CONFIG.maxDistance) {
+                    drawLine(p, p2, dist);
+                }
+            }
+        }
+
+        animationId = requestAnimationFrame(animate);
+    }
+
+    // Mouse tracking
+    canvas.addEventListener('mousemove', (e) => {
+        const rect = canvas.getBoundingClientRect();
+        mouse.x = e.clientX - rect.left;
+        mouse.y = e.clientY - rect.top;
+    });
+
+    canvas.addEventListener('mouseleave', () => {
+        mouse.x = null;
+        mouse.y = null;
+    });
+
+    // Init
+    resize();
+    createParticles();
+    animate();
+
+    // Handle resize
+    let resizeTimeout;
+    window.addEventListener('resize', () => {
+        clearTimeout(resizeTimeout);
+        resizeTimeout = setTimeout(() => {
+            resize();
+            createParticles();
+        }, 200);
+    });
+
+    // Pause when not visible
+    const observer = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                if (!animationId) animate();
+            } else {
+                if (animationId) {
+                    cancelAnimationFrame(animationId);
+                    animationId = null;
+                }
+            }
+        });
+    }, { threshold: 0.1 });
+    observer.observe(canvas);
+}
 
 /**
  * Toggle between light and dark themes
@@ -8,17 +166,19 @@ function toggleTheme() {
     const currentTheme = body.getAttribute('data-theme');
     const newTheme = currentTheme === 'light' ? 'dark' : 'light';
     const themeIcon = document.querySelector('.theme-icon');
-    
-    // Apply new theme
+
     body.setAttribute('data-theme', newTheme);
     themeIcon.textContent = newTheme === 'light' ? '🌙' : '☀️';
-    
-    // Save theme preference (if localStorage is available)
+
+    // Update nav background
+    const nav = document.querySelector('nav');
+    if (nav) {
+        nav.style.background = '';
+    }
+
     try {
         localStorage.setItem('m1-digital-theme', newTheme);
-    } catch(e) {
-        // localStorage not available
-    }
+    } catch(e) {}
 }
 
 /**
@@ -33,7 +193,6 @@ function toggleMobileMenu() {
     const isOpen = navLinks.classList.contains('active');
     mobileMenu.setAttribute('aria-expanded', isOpen);
 
-    // Animate hamburger menu
     if (isOpen) {
         spans[0].style.transform = 'rotate(45deg) translate(5px, 5px)';
         spans[1].style.opacity = '0';
@@ -46,7 +205,7 @@ function toggleMobileMenu() {
 }
 
 /**
- * FAQ toggle functionality (for contact page)
+ * FAQ toggle functionality
  */
 function toggleFAQ(element) {
     const faqItem = element.parentNode;
@@ -76,7 +235,6 @@ function initializeTheme() {
         document.body.setAttribute('data-theme', savedTheme);
         document.querySelector('.theme-icon').textContent = savedTheme === 'light' ? '🌙' : '☀️';
     } catch(e) {
-        // Fallback to light theme if localStorage is not available
         document.body.setAttribute('data-theme', 'light');
         document.querySelector('.theme-icon').textContent = '🌙';
     }
@@ -91,17 +249,15 @@ function initializeSmoothScrolling() {
             e.preventDefault();
             const target = document.querySelector(this.getAttribute('href'));
             if (target) {
-                target.scrollIntoView({ 
+                target.scrollIntoView({
                     behavior: 'smooth',
                     block: 'start'
                 });
-                
-                // Close mobile menu if open
+
                 const navLinks = document.querySelector('.nav-links');
                 const mobileMenu = document.querySelector('.mobile-menu');
                 if (mobileMenu) {
                     const spans = mobileMenu.querySelectorAll('span');
-                    
                     if (navLinks.classList.contains('active')) {
                         navLinks.classList.remove('active');
                         spans[0].style.transform = 'none';
@@ -115,39 +271,40 @@ function initializeSmoothScrolling() {
 }
 
 /**
- * Add scroll effect to navigation
+ * Scroll-based nav enhancement — transparent over hero, solid after
  */
 function initializeScrollEffects() {
     const nav = document.querySelector('nav');
-    let lastScrollTop = 0;
-    
-    window.addEventListener('scroll', () => {
-        const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
-        
-        // Add/remove background blur based on scroll position
-        if (scrollTop > 50) {
-            nav.style.background = document.body.getAttribute('data-theme') === 'dark' 
-                ? 'rgba(4, 30, 66, 0.95)'
-                : 'rgba(255, 255, 255, 0.95)';
+    const hero = document.querySelector('.hero');
+    if (!nav) return;
+
+    // No hero on this page — always solid
+    if (!hero) {
+        nav.classList.add('nav-scrolled');
+        return;
+    }
+
+    function updateNav() {
+        if (window.scrollY > 50) {
+            nav.classList.add('nav-scrolled');
         } else {
-            nav.style.background = document.body.getAttribute('data-theme') === 'dark' 
-                ? 'rgba(4, 30, 66, 0.9)'
-                : 'rgba(255, 255, 255, 0.9)';
+            nav.classList.remove('nav-scrolled');
         }
-        
-        lastScrollTop = scrollTop;
-    });
+    }
+
+    window.addEventListener('scroll', updateNav, { passive: true });
+    updateNav();
 }
 
 /**
- * Add intersection observer for animations
+ * Intersection observer for scroll animations
  */
 function initializeAnimationObserver() {
     const observerOptions = {
         threshold: 0.1,
-        rootMargin: '0px 0px -50px 0px'
+        rootMargin: '0px 0px -40px 0px'
     };
-    
+
     const observer = new IntersectionObserver((entries) => {
         entries.forEach(entry => {
             if (entry.isIntersecting) {
@@ -156,40 +313,71 @@ function initializeAnimationObserver() {
             }
         });
     }, observerOptions);
-    
-    // Observe feature cards, service cards, contact cards, and office cards
-    document.querySelectorAll('.feature-card, .service-card, .contact-card, .office-card, .faq-item').forEach(card => {
+
+    document.querySelectorAll('.feature-card, .service-card, .contact-card, .office-card, .faq-item, .news-card').forEach((card, index) => {
         card.style.opacity = '0';
-        card.style.transform = 'translateY(30px)';
-        card.style.transition = 'opacity 0.6s ease, transform 0.6s ease';
+        card.style.transform = 'translateY(24px)';
+        card.style.transition = `opacity 0.5s ease ${index % 3 * 0.1}s, transform 0.5s ease ${index % 3 * 0.1}s`;
         observer.observe(card);
     });
 }
 
 /**
- * Add loading animation
+ * Hero content entrance animation
  */
 function initializeLoadingAnimation() {
-    const heroContent = document.querySelector('.hero-content');
-    
+    const heroContent = document.querySelector('.hero .hero-content');
+    const heroStats = document.querySelector('.hero-stats');
+    const heroBadge = document.querySelector('.hero-badge');
+
     if (heroContent) {
-        // Add initial loading state
         heroContent.style.opacity = '0';
-        heroContent.style.transform = 'translateY(50px)';
-        
-        // Animate in after page load
+        heroContent.style.transform = 'translateY(30px)';
+
         window.addEventListener('load', () => {
             setTimeout(() => {
-                heroContent.style.transition = 'opacity 1s ease, transform 1s ease';
+                heroContent.style.transition = 'opacity 0.8s ease, transform 0.8s ease';
                 heroContent.style.opacity = '1';
                 heroContent.style.transform = 'translateY(0)';
-            }, 300);
+            }, 200);
+        });
+    }
+
+    if (heroStats) {
+        heroStats.style.opacity = '0';
+        heroStats.style.transform = 'translateX(-50%) translateY(20px)';
+
+        window.addEventListener('load', () => {
+            setTimeout(() => {
+                heroStats.style.transition = 'opacity 0.8s ease, transform 0.8s ease';
+                heroStats.style.opacity = '1';
+                heroStats.style.transform = 'translateX(-50%) translateY(0)';
+            }, 600);
         });
     }
 }
 
 /**
- * Handle form submissions (if forms are added later)
+ * Keyboard navigation support
+ */
+function initializeKeyboardNavigation() {
+    document.addEventListener('keydown', function(e) {
+        if ((e.ctrlKey || e.metaKey) && e.shiftKey && e.key === 'T') {
+            e.preventDefault();
+            toggleTheme();
+        }
+
+        if (e.key === 'Escape') {
+            const navLinks = document.querySelector('.nav-links');
+            if (navLinks && navLinks.classList.contains('active')) {
+                toggleMobileMenu();
+            }
+        }
+    });
+}
+
+/**
+ * Form handling
  */
 function initializeFormHandling() {
     document.addEventListener('submit', function(e) {
@@ -201,48 +389,26 @@ function initializeFormHandling() {
 }
 
 /**
- * Add keyboard navigation support
- */
-function initializeKeyboardNavigation() {
-    document.addEventListener('keydown', function(e) {
-        // Toggle theme with Ctrl/Cmd + Shift + T
-        if ((e.ctrlKey || e.metaKey) && e.shiftKey && e.key === 'T') {
-            e.preventDefault();
-            toggleTheme();
-        }
-        
-        // Close mobile menu with Escape
-        if (e.key === 'Escape') {
-            const navLinks = document.querySelector('.nav-links');
-            if (navLinks && navLinks.classList.contains('active')) {
-                toggleMobileMenu();
-            }
-        }
-    });
-}
-
-/**
- * Initialize all functionality when DOM is loaded
+ * Initialize everything
  */
 document.addEventListener('DOMContentLoaded', function() {
     initializeTheme();
+    initHeroCanvas();
     initializeSmoothScrolling();
     initializeScrollEffects();
     initializeAnimationObserver();
     initializeLoadingAnimation();
     initializeFormHandling();
     initializeKeyboardNavigation();
-    
 });
 
 /**
- * Handle window resize events
+ * Handle window resize
  */
 window.addEventListener('resize', function() {
     const navLinks = document.querySelector('.nav-links');
     const mobileMenu = document.querySelector('.mobile-menu');
-    
-    // Close mobile menu on window resize if it's open
+
     if (window.innerWidth > 768 && navLinks && navLinks.classList.contains('active')) {
         navLinks.classList.remove('active');
         if (mobileMenu) {
@@ -254,8 +420,7 @@ window.addEventListener('resize', function() {
     }
 });
 
-
-// Export functions for potential external use
+// Public API
 window.M1Digital = {
     toggleTheme,
     toggleMobileMenu,
