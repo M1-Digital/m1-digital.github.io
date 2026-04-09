@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(git add:*)",
+      "Bash(git commit -m ':*)",
+      "Bash(git push:*)",
+      "Bash(lsof -ti:8000)",
+      "Bash(kill 36867)",
+      "Bash(python3 -m http.server 8000)",
+      "Bash(python3 -c ':*)",
+      "Bash(git checkout:*)"
+    ]
+  }
+}
