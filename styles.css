@@ -42,7 +42,7 @@
     --text-tertiary: #64748b;
     --bg-color: #0a1628;
     --secondary-bg: #0f1f36;
-    --card-bg: #132238;
+    --card-bg: #182b46;
     --border-color: rgba(255, 255, 255, 0.08);
     --shadow-color: rgba(0, 0, 0, 0.3);
     --shadow-lg: 0 20px 60px rgba(0, 0, 0, 0.4);
@@ -55,7 +55,7 @@ html {
 }
 
 body {
-    font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+    font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, sans-serif;
     background: var(--bg-color);
     color: var(--text-color);
     line-height: 1.6;
@@ -217,7 +217,13 @@ nav.nav-scrolled {
 }
 
 .theme-icon {
-    font-size: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.icon-sun {
+    display: none;
 }
 
 .mobile-menu {
@@ -577,7 +583,7 @@ main {
     background: var(--card-bg);
     padding: 2rem;
     border-radius: var(--radius-lg);
-    border: 1px solid var(--border-color);
+/*     border: 1px solid var(--border-color); */
     transition: all 0.3s ease;
     text-align: left;
     box-shadow: var(--shadow-card);
@@ -748,7 +754,7 @@ main {
     background: var(--card-bg);
     padding: 2.25rem;
     border-radius: var(--radius-lg);
-    border: 1px solid var(--border-color);
+/*     border: 1px solid var(--border-color); */
     transition: all 0.3s ease;
     text-align: left;
     box-shadow: var(--shadow-card);
@@ -814,20 +820,193 @@ main {
 }
 
 /* ==========================================
+   ABOUT VISUAL SECTION
+   ========================================== */
+
+.about-visual {
+    padding: 7rem 2rem;
+    background: var(--bg-color);
+}
+
+.about-visual-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 4rem;
+    align-items: center;
+}
+
+.about-visual-image {
+    position: relative;
+    border-radius: var(--radius-xl);
+    overflow: hidden;
+    aspect-ratio: 4 / 3;
+}
+
+.about-visual-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    border-radius: var(--radius-xl);
+}
+
+.about-image-accent {
+    position: absolute;
+    bottom: -12px;
+    right: -12px;
+    width: 50%;
+    height: 50%;
+    border: 3px solid var(--primary-color);
+    border-radius: var(--radius-xl);
+    z-index: -1;
+    opacity: 0.3;
+}
+
+.about-label {
+    display: inline-block;
+    font-size: 0.8rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    color: var(--primary-color);
+    margin-bottom: 1rem;
+}
+
+.about-visual-content h2 {
+    font-size: clamp(2rem, 4vw, 2.75rem);
+    font-weight: 700;
+    margin-bottom: 1.25rem;
+    color: var(--text-color);
+    letter-spacing: -0.03em;
+    line-height: 1.15;
+}
+
+.about-visual-content p {
+    font-size: 1.05rem;
+    color: var(--text-secondary);
+    line-height: 1.7;
+    margin-bottom: 2rem;
+}
+
+.about-highlights {
+    display: flex;
+    gap: 2.5rem;
+}
+
+.about-highlight {
+    display: flex;
+    flex-direction: column;
+    gap: 0.2rem;
+}
+
+.about-highlight-number {
+    font-size: 1.75rem;
+    font-weight: 800;
+    color: var(--primary-color);
+    letter-spacing: -0.02em;
+}
+
+.about-highlight-text {
+    font-size: 0.85rem;
+    color: var(--text-tertiary);
+    font-weight: 500;
+}
+
+/* ==========================================
+   SERVICE CARD SVG ILLUSTRATIONS
+   ========================================== */
+
+.service-card-svg {
+    margin: -2.25rem -2.25rem 1.5rem -2.25rem;
+    padding: 2rem 1.5rem;
+    background: var(--secondary-bg);
+    border-radius: var(--radius-lg) var(--radius-lg) 0 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--primary-color);
+}
+
+.service-card-svg svg {
+    width: 100%;
+    max-height: 140px;
+}
+
+.service-card-body {
+    padding: 0;
+}
+
+/* ==========================================
    TECHNOLOGY SECTION
    ========================================== */
 
-/* Reuse features styling for technology section on index */
-#technology.features .hero-content {
-    text-align: center;
-    max-width: 640px;
-    margin: 0 auto;
+.tech-section {
+    padding: 7rem 2rem;
+    background: var(--secondary-bg);
+    border-top: 1px solid var(--border-color);
+    border-bottom: 1px solid var(--border-color);
 }
 
-#technology.features .hero-content p {
-    font-size: 1.1rem;
+.tech-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 4rem;
+    align-items: center;
+}
+
+.tech-content h2 {
+    font-size: clamp(2rem, 4vw, 2.75rem);
+    font-weight: 700;
+    margin-bottom: 1.25rem;
+    color: var(--text-color);
+    letter-spacing: -0.03em;
+    line-height: 1.15;
+}
+
+.tech-content p {
+    font-size: 1.05rem;
     color: var(--text-secondary);
     line-height: 1.7;
+    margin-bottom: 1rem;
+}
+
+.tech-stack {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin-top: 1.5rem;
+}
+
+.tech-tag {
+    display: inline-block;
+    padding: 0.4rem 1rem;
+    background: rgba(0, 102, 204, 0.08);
+    color: var(--primary-color);
+    border-radius: 100px;
+    font-size: 0.85rem;
+    font-weight: 600;
+    letter-spacing: -0.01em;
+}
+
+[data-theme="dark"] .tech-tag {
+    background: rgba(59, 142, 237, 0.12);
+}
+
+.tech-svg {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--primary-color);
+    padding: 1rem;
+}
+
+.tech-svg svg {
+    width: 100%;
+    max-height: 320px;
 }
 
 /* ==========================================
@@ -1490,6 +1669,32 @@ footer {
         grid-template-columns: 1fr;
     }
 
+    .about-visual-container,
+    .tech-container {
+        grid-template-columns: 1fr;
+        gap: 2.5rem;
+    }
+
+    .about-visual-image {
+        order: -1;
+    }
+
+    .about-visual {
+        padding: 4rem 1.25rem;
+    }
+
+    .about-highlights {
+        gap: 1.5rem;
+    }
+
+    .tech-section {
+        padding: 4rem 1.25rem;
+    }
+
+    .tech-svg {
+        order: -1;
+    }
+
     .footer-links {
         flex-direction: column;
         gap: 0.75rem;
@@ -1566,6 +1771,25 @@ footer {
     .feature-card,
     .service-card {
         padding: 1.5rem;
+    }
+
+    .service-card-svg {
+        margin: -1.5rem -1.5rem 1.25rem -1.5rem;
+    }
+
+    .about-highlights {
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .about-highlight {
+        flex-direction: row;
+        align-items: center;
+        gap: 0.75rem;
+    }
+
+    .about-highlight-number {
+        font-size: 1.5rem;
     }
 }
 

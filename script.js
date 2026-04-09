@@ -168,7 +168,7 @@ function toggleTheme() {
     const themeIcon = document.querySelector('.theme-icon');
 
     body.setAttribute('data-theme', newTheme);
-    themeIcon.textContent = newTheme === 'light' ? '🌙' : '☀️';
+    updateThemeIcon(newTheme);
 
     // Update nav background
     const nav = document.querySelector('nav');
@@ -229,14 +229,23 @@ function toggleFAQ(element) {
 /**
  * Initialize theme on page load
  */
+function updateThemeIcon(theme) {
+    const moon = document.querySelector('.icon-moon');
+    const sun = document.querySelector('.icon-sun');
+    if (moon && sun) {
+        moon.style.display = theme === 'light' ? 'block' : 'none';
+        sun.style.display = theme === 'dark' ? 'block' : 'none';
+    }
+}
+
 function initializeTheme() {
     try {
         const savedTheme = localStorage.getItem('m1-digital-theme') || 'light';
         document.body.setAttribute('data-theme', savedTheme);
-        document.querySelector('.theme-icon').textContent = savedTheme === 'light' ? '🌙' : '☀️';
+        updateThemeIcon(savedTheme);
     } catch(e) {
         document.body.setAttribute('data-theme', 'light');
-        document.querySelector('.theme-icon').textContent = '🌙';
+        updateThemeIcon('light');
     }
 }
 

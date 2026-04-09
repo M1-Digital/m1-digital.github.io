@@ -14,7 +14,7 @@
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
 
     <!-- Styles -->
     <link rel="stylesheet" href="styles.css">
@@ -115,7 +115,7 @@
 
             <div class="nav-right">
                 <button class="theme-toggle" onclick="toggleTheme()" aria-label="Toggle dark mode">
-                    <span class="theme-icon">🌙</span>
+                    <span class="theme-icon"><svg class="icon-moon" viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg><svg class="icon-sun" viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg></span>
                 </button>
                 <button class="mobile-menu" onclick="toggleMobileMenu()" aria-label="Toggle navigation menu" aria-expanded="false">
                     <span></span>
@@ -294,37 +294,242 @@
             <h2 class="section-title">Our Core Services</h2>
             <div class="services-grid">
                 <div class="service-card">
-                    <h3>Blockchain Payment Solutions</h3>
-                    <p>Custom blockchain payment gateways, cross-border processing, and smart contract development for automated payments.</p>
-                    <a href="./contact.html" class="learn-more">Learn More →</a>
-                </div>
-                
-                <div class="service-card">
-                    <h3>Digital Payment Infrastructure</h3>
-                    <p>Real-time payment processing systems with multi-currency support, advanced fraud detection, and API-first architecture.</p>
-                    <a href="./contact.html" class="learn-more">Learn More →</a>
-                </div>
-                
-                <div class="service-card">
-                    <h3>Financial Technology Consulting</h3>
-                    <p>Blockchain strategy, digital transformation, regulatory compliance, and custom fintech application development.</p>
-                    <a href="./contact.html" class="learn-more">Learn More →</a>
+                    <div class="service-card-svg">
+                        <svg viewBox="0 0 400 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <!-- Blockchain payment flow: card → chain → wallet -->
+                            <rect x="30" y="60" width="90" height="58" rx="8" stroke="currentColor" stroke-width="2"/>
+                            <line x1="30" y1="80" x2="120" y2="80" stroke="currentColor" stroke-width="2" opacity="0.3"/>
+                            <rect x="42" y="92" width="32" height="5" rx="2.5" stroke="currentColor" stroke-width="1" opacity="0.4"/>
+                            <rect x="42" y="103" width="48" height="4" rx="2" stroke="currentColor" stroke-width="1" opacity="0.25"/>
+                            <!-- Chain links -->
+                            <path d="M135 89 C155 89, 160 75, 175 75" stroke="currentColor" stroke-width="2" stroke-linecap="round" fill="none"/>
+                            <rect x="175" y="65" width="22" height="22" rx="4" stroke="currentColor" stroke-width="2"/>
+                            <rect x="175" y="65" width="22" height="22" rx="4" fill="currentColor" opacity="0.06"/>
+                            <line x1="197" y1="76" x2="210" y2="76" stroke="currentColor" stroke-width="2" opacity="0.4"/>
+                            <rect x="210" y="65" width="22" height="22" rx="4" stroke="currentColor" stroke-width="2"/>
+                            <rect x="210" y="65" width="22" height="22" rx="4" fill="currentColor" opacity="0.06"/>
+                            <line x1="232" y1="76" x2="245" y2="76" stroke="currentColor" stroke-width="2" opacity="0.4"/>
+                            <rect x="245" y="65" width="22" height="22" rx="4" stroke="currentColor" stroke-width="2"/>
+                            <rect x="245" y="65" width="22" height="22" rx="4" fill="currentColor" opacity="0.06"/>
+                            <!-- Arrow to wallet -->
+                            <path d="M282 76 C295 76, 300 89, 310 89" stroke="currentColor" stroke-width="2" stroke-linecap="round" fill="none"/>
+                            <polygon points="313,85 313,93 320,89" fill="currentColor" opacity="0.5"/>
+                            <!-- Wallet -->
+                            <rect x="325" y="65" width="50" height="48" rx="6" stroke="currentColor" stroke-width="2"/>
+                            <path d="M325 80 L375 80" stroke="currentColor" stroke-width="1.5" opacity="0.2"/>
+                            <circle cx="360" cy="92" r="5" stroke="currentColor" stroke-width="1.5"/>
+                            <circle cx="360" cy="92" r="2" fill="currentColor" opacity="0.4"/>
+                            <!-- Small block hashes -->
+                            <text x="181" y="80" font-family="monospace" font-size="7" fill="currentColor" opacity="0.35">#1</text>
+                            <text x="216" y="80" font-family="monospace" font-size="7" fill="currentColor" opacity="0.35">#2</text>
+                            <text x="251" y="80" font-family="monospace" font-size="7" fill="currentColor" opacity="0.35">#3</text>
+                        </svg>
+                    </div>
+                    <div class="service-card-body">
+                        <h3>Blockchain Payment Solutions</h3>
+                        <p>Custom blockchain payment gateways, cross-border processing, and smart contract development for automated payments.</p>
+                        <a href="./contact.html" class="learn-more">Learn More →</a>
+                    </div>
                 </div>
 
                 <div class="service-card">
-                    <h3>Artificial Intelligence &amp; Quantitative Models</h3>
-                    <p>Advanced AI solutions and Large Quantitative Models for predictive analytics, risk assessment, fraud detection, and intelligent automation of financial processes.</p>
-                    <a href="./contact.html" class="learn-more">Learn More →</a>
+                    <div class="service-card-svg">
+                        <svg viewBox="0 0 400 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <!-- Real-time payment processing -->
+                            <!-- Server rack -->
+                            <rect x="30" y="40" width="60" height="120" rx="6" stroke="currentColor" stroke-width="2"/>
+                            <line x1="30" y1="70" x2="90" y2="70" stroke="currentColor" stroke-width="1" opacity="0.2"/>
+                            <line x1="30" y1="100" x2="90" y2="100" stroke="currentColor" stroke-width="1" opacity="0.2"/>
+                            <line x1="30" y1="130" x2="90" y2="130" stroke="currentColor" stroke-width="1" opacity="0.2"/>
+                            <circle cx="42" cy="55" r="3" fill="currentColor" opacity="0.5"/>
+                            <circle cx="42" cy="85" r="3" fill="currentColor" opacity="0.35"/>
+                            <circle cx="42" cy="115" r="3" fill="currentColor" opacity="0.25"/>
+                            <rect x="50" y="52" width="28" height="4" rx="2" fill="currentColor" opacity="0.12"/>
+                            <rect x="50" y="82" width="28" height="4" rx="2" fill="currentColor" opacity="0.12"/>
+                            <rect x="50" y="112" width="28" height="4" rx="2" fill="currentColor" opacity="0.12"/>
+                            <!-- Connections flowing out -->
+                            <path d="M90 55 L140 55 L140 80 L170 80" stroke="currentColor" stroke-width="1.5" opacity="0.3" stroke-linecap="round"/>
+                            <path d="M90 100 L170 100" stroke="currentColor" stroke-width="1.5" opacity="0.3" stroke-linecap="round"/>
+                            <path d="M90 145 L140 145 L140 120 L170 120" stroke="currentColor" stroke-width="1.5" opacity="0.3" stroke-linecap="round"/>
+                            <!-- Central hub circle -->
+                            <circle cx="200" cy="100" r="30" stroke="currentColor" stroke-width="2"/>
+                            <circle cx="200" cy="100" r="30" fill="currentColor" opacity="0.04"/>
+                            <!-- Currency symbols -->
+                            <text x="200" y="95" text-anchor="middle" font-family="Plus Jakarta Sans" font-size="10" fill="currentColor" opacity="0.5">$</text>
+                            <text x="190" y="108" text-anchor="middle" font-family="Plus Jakarta Sans" font-size="8" fill="currentColor" opacity="0.35">€</text>
+                            <text x="212" y="108" text-anchor="middle" font-family="Plus Jakarta Sans" font-size="8" fill="currentColor" opacity="0.35">¥</text>
+                            <!-- Outgoing connections -->
+                            <path d="M230 85 L280 60" stroke="currentColor" stroke-width="1.5" opacity="0.3" stroke-linecap="round"/>
+                            <path d="M230 100 L290 100" stroke="currentColor" stroke-width="1.5" opacity="0.3" stroke-linecap="round"/>
+                            <path d="M230 115 L280 140" stroke="currentColor" stroke-width="1.5" opacity="0.3" stroke-linecap="round"/>
+                            <!-- Endpoint devices -->
+                            <rect x="280" y="45" width="35" height="28" rx="4" stroke="currentColor" stroke-width="1.5"/>
+                            <rect x="290" y="85" width="40" height="28" rx="4" stroke="currentColor" stroke-width="1.5"/>
+                            <rect x="280" y="128" width="35" height="28" rx="4" stroke="currentColor" stroke-width="1.5"/>
+                            <!-- Checkmarks -->
+                            <polyline points="290,58 295,63 305,53" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" opacity="0.5"/>
+                            <polyline points="302,98 307,103 317,93" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" opacity="0.5"/>
+                            <polyline points="290,141 295,146 305,136" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" opacity="0.5"/>
+                            <!-- Pulse ring -->
+                            <circle cx="200" cy="100" r="40" stroke="currentColor" stroke-width="0.75" opacity="0.1"/>
+                        </svg>
+                    </div>
+                    <div class="service-card-body">
+                        <h3>Digital Payment Infrastructure</h3>
+                        <p>Real-time payment processing systems with multi-currency support, advanced fraud detection, and API-first architecture.</p>
+                        <a href="./contact.html" class="learn-more">Learn More →</a>
+                    </div>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-card-svg">
+                        <svg viewBox="0 0 400 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <!-- Strategy / consulting: clipboard + chart + lightbulb -->
+                            <!-- Clipboard -->
+                            <rect x="40" y="40" width="80" height="120" rx="6" stroke="currentColor" stroke-width="2"/>
+                            <rect x="60" y="32" width="40" height="16" rx="4" stroke="currentColor" stroke-width="1.5"/>
+                            <circle cx="80" cy="40" r="3" fill="currentColor" opacity="0.3"/>
+                            <!-- Checklist items -->
+                            <rect x="55" y="70" width="8" height="8" rx="2" stroke="currentColor" stroke-width="1.5"/>
+                            <polyline points="57,74 59,76 63,72" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" opacity="0.5"/>
+                            <line x1="70" y1="74" x2="105" y2="74" stroke="currentColor" stroke-width="1.5" opacity="0.2"/>
+                            <rect x="55" y="90" width="8" height="8" rx="2" stroke="currentColor" stroke-width="1.5"/>
+                            <polyline points="57,94 59,96 63,92" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" opacity="0.5"/>
+                            <line x1="70" y1="94" x2="100" y2="94" stroke="currentColor" stroke-width="1.5" opacity="0.2"/>
+                            <rect x="55" y="110" width="8" height="8" rx="2" stroke="currentColor" stroke-width="1.5"/>
+                            <line x1="70" y1="114" x2="95" y2="114" stroke="currentColor" stroke-width="1.5" opacity="0.2"/>
+                            <rect x="55" y="130" width="8" height="8" rx="2" stroke="currentColor" stroke-width="1.5"/>
+                            <line x1="70" y1="134" x2="108" y2="134" stroke="currentColor" stroke-width="1.5" opacity="0.2"/>
+                            <!-- Arrow -->
+                            <path d="M135 100 L170 100" stroke="currentColor" stroke-width="1.5" opacity="0.3" stroke-linecap="round"/>
+                            <polygon points="173,96 173,104 180,100" fill="currentColor" opacity="0.3"/>
+                            <!-- Growth chart -->
+                            <rect x="190" y="55" width="110" height="90" rx="6" stroke="currentColor" stroke-width="2"/>
+                            <!-- Grid lines -->
+                            <line x1="205" y1="75" x2="285" y2="75" stroke="currentColor" stroke-width="0.75" opacity="0.1"/>
+                            <line x1="205" y1="95" x2="285" y2="95" stroke="currentColor" stroke-width="0.75" opacity="0.1"/>
+                            <line x1="205" y1="115" x2="285" y2="115" stroke="currentColor" stroke-width="0.75" opacity="0.1"/>
+                            <!-- Chart line going up -->
+                            <polyline points="210,125 230,115 245,105 260,95 275,70" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            <!-- Dot at peak -->
+                            <circle cx="275" cy="70" r="4" fill="currentColor" opacity="0.3"/>
+                            <circle cx="275" cy="70" r="2" fill="currentColor"/>
+                            <!-- Lightbulb -->
+                            <circle cx="345" cy="80" r="18" stroke="currentColor" stroke-width="2"/>
+                            <line x1="339" y1="98" x2="351" y2="98" stroke="currentColor" stroke-width="1.5" opacity="0.4"/>
+                            <line x1="340" y1="103" x2="350" y2="103" stroke="currentColor" stroke-width="1.5" opacity="0.3"/>
+                            <line x1="342" y1="108" x2="348" y2="108" stroke="currentColor" stroke-width="1.5" opacity="0.2"/>
+                            <!-- Rays -->
+                            <line x1="345" y1="52" x2="345" y2="45" stroke="currentColor" stroke-width="1.5" opacity="0.3" stroke-linecap="round"/>
+                            <line x1="365" y1="63" x2="370" y2="58" stroke="currentColor" stroke-width="1.5" opacity="0.3" stroke-linecap="round"/>
+                            <line x1="325" y1="63" x2="320" y2="58" stroke="currentColor" stroke-width="1.5" opacity="0.3" stroke-linecap="round"/>
+                            <line x1="370" y1="80" x2="377" y2="80" stroke="currentColor" stroke-width="1.5" opacity="0.3" stroke-linecap="round"/>
+                            <line x1="320" y1="80" x2="313" y2="80" stroke="currentColor" stroke-width="1.5" opacity="0.3" stroke-linecap="round"/>
+                        </svg>
+                    </div>
+                    <div class="service-card-body">
+                        <h3>Financial Technology Consulting</h3>
+                        <p>Blockchain strategy, digital transformation, regulatory compliance, and custom fintech application development.</p>
+                        <a href="./contact.html" class="learn-more">Learn More →</a>
+                    </div>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-card-svg">
+                        <svg viewBox="0 0 400 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <!-- AI / Brain + neural network -->
+                            <!-- Brain outline (simplified) -->
+                            <path d="M120 60 C120 40, 145 30, 160 40 C170 30, 195 35, 195 50 C210 50, 215 70, 200 80 C210 90, 205 110, 190 110 C190 125, 170 130, 160 120 C150 130, 130 125, 125 112 C110 112, 105 95, 115 85 C105 75, 108 60, 120 60Z" stroke="currentColor" stroke-width="2" fill="none"/>
+                            <!-- Neural dots inside brain -->
+                            <circle cx="140" cy="65" r="3" fill="currentColor" opacity="0.3"/>
+                            <circle cx="170" cy="55" r="3" fill="currentColor" opacity="0.3"/>
+                            <circle cx="185" cy="75" r="3" fill="currentColor" opacity="0.3"/>
+                            <circle cx="160" cy="90" r="3" fill="currentColor" opacity="0.3"/>
+                            <circle cx="135" cy="95" r="3" fill="currentColor" opacity="0.3"/>
+                            <circle cx="165" cy="110" r="3" fill="currentColor" opacity="0.3"/>
+                            <!-- Internal connections -->
+                            <line x1="140" y1="65" x2="170" y2="55" stroke="currentColor" stroke-width="1" opacity="0.15"/>
+                            <line x1="170" y1="55" x2="185" y2="75" stroke="currentColor" stroke-width="1" opacity="0.15"/>
+                            <line x1="185" y1="75" x2="160" y2="90" stroke="currentColor" stroke-width="1" opacity="0.15"/>
+                            <line x1="160" y1="90" x2="135" y2="95" stroke="currentColor" stroke-width="1" opacity="0.15"/>
+                            <line x1="140" y1="65" x2="160" y2="90" stroke="currentColor" stroke-width="1" opacity="0.1"/>
+                            <line x1="160" y1="90" x2="165" y2="110" stroke="currentColor" stroke-width="1" opacity="0.15"/>
+                            <!-- Arrow to output -->
+                            <path d="M215 80 L250 80" stroke="currentColor" stroke-width="1.5" opacity="0.3" stroke-linecap="round"/>
+                            <polygon points="253,76 253,84 260,80" fill="currentColor" opacity="0.3"/>
+                            <!-- Output: data chart / analytics -->
+                            <rect x="270" y="40" width="100" height="120" rx="8" stroke="currentColor" stroke-width="2"/>
+                            <!-- Bar chart -->
+                            <rect x="288" y="105" width="12" height="35" rx="2" fill="currentColor" opacity="0.12"/>
+                            <rect x="308" y="85" width="12" height="55" rx="2" fill="currentColor" opacity="0.18"/>
+                            <rect x="328" y="65" width="12" height="75" rx="2" fill="currentColor" opacity="0.25"/>
+                            <!-- Trend line -->
+                            <polyline points="294,100 314,80 334,60" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" opacity="0.4"/>
+                            <circle cx="334" cy="60" r="3" fill="currentColor" opacity="0.4"/>
+                            <!-- Header lines -->
+                            <rect x="285" y="52" width="40" height="4" rx="2" fill="currentColor" opacity="0.1"/>
+                        </svg>
+                    </div>
+                    <div class="service-card-body">
+                        <h3>Artificial Intelligence &amp; Quantitative Models</h3>
+                        <p>Advanced AI solutions and Large Quantitative Models for predictive analytics, risk assessment, fraud detection, and intelligent automation of financial processes.</p>
+                        <a href="./contact.html" class="learn-more">Learn More →</a>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Technology Section (placeholder) -->
-    <section id="technology" class="features">
-        <h2 class="section-title">Our Technology</h2>
-        <div class="hero-content" style="text-align: center; max-width: 640px; margin: 0 auto;">
-            <p>Built on cutting-edge blockchain technology and artificial intelligence, our platform ensures security, scalability, and seamless integration with existing financial systems. Our Large Quantitative Models deliver data-driven insights that power smarter financial decisions.</p>
+    <!-- Technology Section -->
+    <section id="technology" class="tech-section">
+        <div class="tech-container">
+            <div class="tech-content">
+                <span class="about-label">Our Technology</span>
+                <h2>Our Technology</h2>
+                <p>Built on cutting-edge blockchain technology and artificial intelligence, our platform ensures security, scalability, and seamless integration with existing financial systems.</p>
+                <p>Our Large Quantitative Models deliver data-driven insights that power smarter financial decisions.</p>
+                <div class="tech-stack">
+                    <span class="tech-tag">Blockchain</span>
+                    <span class="tech-tag">Smart Contracts</span>
+                    <span class="tech-tag">AI / ML</span>
+                    <span class="tech-tag">LQM</span>
+                    <span class="tech-tag">REST APIs</span>
+                    <span class="tech-tag">Cloud Native</span>
+                </div>
+            </div>
+            <div class="tech-svg">
+                <svg viewBox="0 0 400 320" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <!-- Shield / security base -->
+                    <path d="M200 30 L300 70 L300 170 C300 230 255 270 200 290 C145 270 100 230 100 170 L100 70 Z" stroke="currentColor" stroke-width="2" fill="none"/>
+                    <path d="M200 30 L300 70 L300 170 C300 230 255 270 200 290 C145 270 100 230 100 170 L100 70 Z" fill="currentColor" opacity="0.03"/>
+                    <!-- Inner shield -->
+                    <path d="M200 60 L275 90 L275 165 C275 215 240 245 200 260 C160 245 125 215 125 165 L125 90 Z" stroke="currentColor" stroke-width="1.5" opacity="0.2" fill="none"/>
+                    <!-- Central lock -->
+                    <circle cx="200" cy="140" r="22" stroke="currentColor" stroke-width="2"/>
+                    <circle cx="200" cy="140" r="22" fill="currentColor" opacity="0.06"/>
+                    <rect x="190" y="145" width="20" height="18" rx="3" stroke="currentColor" stroke-width="2"/>
+                    <path d="M195 145 L195 136 C195 130 200 126 205 126 C210 126 215 130 215 136 L215 145" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round"/>
+                    <circle cx="205" cy="155" r="2" fill="currentColor" opacity="0.4"/>
+                    <!-- Network nodes around shield -->
+                    <circle cx="60" cy="100" r="8" stroke="currentColor" stroke-width="1.5" opacity="0.4"/>
+                    <circle cx="340" cy="100" r="8" stroke="currentColor" stroke-width="1.5" opacity="0.4"/>
+                    <circle cx="60" cy="200" r="8" stroke="currentColor" stroke-width="1.5" opacity="0.4"/>
+                    <circle cx="340" cy="200" r="8" stroke="currentColor" stroke-width="1.5" opacity="0.4"/>
+                    <circle cx="200" cy="10" r="6" stroke="currentColor" stroke-width="1.5" opacity="0.3"/>
+                    <!-- Connections to shield -->
+                    <line x1="68" y1="100" x2="100" y2="100" stroke="currentColor" stroke-width="1" opacity="0.15" stroke-dasharray="4 3"/>
+                    <line x1="300" y1="100" x2="332" y2="100" stroke="currentColor" stroke-width="1" opacity="0.15" stroke-dasharray="4 3"/>
+                    <line x1="68" y1="200" x2="100" y2="195" stroke="currentColor" stroke-width="1" opacity="0.15" stroke-dasharray="4 3"/>
+                    <line x1="300" y1="195" x2="332" y2="200" stroke="currentColor" stroke-width="1" opacity="0.15" stroke-dasharray="4 3"/>
+                    <line x1="200" y1="16" x2="200" y2="30" stroke="currentColor" stroke-width="1" opacity="0.15" stroke-dasharray="4 3"/>
+                    <!-- Small dots -->
+                    <circle cx="60" cy="100" r="3" fill="currentColor" opacity="0.25"/>
+                    <circle cx="340" cy="100" r="3" fill="currentColor" opacity="0.25"/>
+                    <circle cx="60" cy="200" r="3" fill="currentColor" opacity="0.25"/>
+                    <circle cx="340" cy="200" r="3" fill="currentColor" opacity="0.25"/>
+                    <circle cx="200" cy="10" r="2.5" fill="currentColor" opacity="0.2"/>
+                </svg>
+            </div>
         </div>
     </section>
 
