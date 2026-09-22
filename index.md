@@ -7,56 +7,56 @@
 
 ---
 
-## Pioneering the Future of Blockchain Payments & AI
+## Engineering the Future of Blockchain & AI
 
-**M1 Digital** is a cutting-edge fintech company specializing in blockchain technology, artificial intelligence, and next-generation payment solutions. We bridge the gap between traditional finance and the digital economy, delivering secure, scalable, and innovative payment infrastructure powered by blockchain and AI for businesses worldwide.
+**M1 Digital** is a software development and research company specialising in blockchain and artificial intelligence technology. We design, build, and research the systems — from decentralised infrastructure to intelligent automation — that help organisations put emerging technology into production.
 
-### Why Choose M1 Digital?
+### Why Work With M1 Digital?
 
-**🔐 Security First**  
-Bank-grade security protocols with blockchain immutability ensuring your transactions are protected at every level.
+**🔬 Research-Led**
+We pair applied research with production engineering, so every system we build is grounded in rigorous analysis, not guesswork.
 
-**⚡ Lightning Fast**  
-Process payments in seconds, not days. Our blockchain infrastructure eliminates traditional banking delays.
+**⚙️ Full-Stack Engineering**
+From protocol design to production deployment, we build complete systems end-to-end rather than isolated components.
 
-**🌍 Global Reach**  
-Seamless cross-border transactions with reduced fees and instant settlement capabilities.
+**🌍 Global Collaboration**
+We partner with organisations worldwide, working across time zones and disciplines to bring blockchain and AI projects to life.
 
-**🔧 Developer-Friendly**  
-Comprehensive APIs and SDKs that integrate easily with your existing systems.
+**🔧 Developer-Friendly**
+Comprehensive APIs, SDKs, and documentation that make the systems we build easy to integrate, extend, and maintain.
 
-**📈 Scalable Solutions**  
-From startups to enterprise, our infrastructure grows with your business needs.
+**📈 Scalable Solutions**
+From proof-of-concept to production, our architectures are designed to grow with the systems they support.
 
 ---
 
 ### Our Core Services
 
-**Blockchain Payment Solutions**  
-Custom blockchain payment gateways, cross-border processing, and smart contract development for automated payments.
+**Blockchain Engineering**
+Protocol design, smart contract development, and decentralised infrastructure engineering for teams building on-chain systems.
 
-**Digital Payment Infrastructure**  
-Real-time payment processing systems with multi-currency support, advanced fraud detection, and API-first architecture.
+**Software Architecture & Platform Engineering**
+Real-time, scalable software systems with API-first architecture, built for high-availability production environments.
 
-**Financial Technology Consulting**
-Blockchain strategy, digital transformation, regulatory compliance, and custom fintech application development.
+**Technology Research & Advisory**
+Independent technical research and strategic advisory on blockchain and AI adoption, from feasibility studies to full implementation roadmaps.
 
-**Artificial Intelligence & Quantitative Models**
-Advanced AI solutions and Large Quantitative Models for predictive analytics, risk assessment, fraud detection, and intelligent automation of financial processes.
+**Artificial Intelligence & Quantitative Research**
+Applied AI and machine learning research, including Large Quantitative Models, for prediction, automation, and decision support.
 
 [Learn More About Our Services →](services.html)
 
 ---
 
-### Ready to Transform Your Payment Infrastructure?
+### Ready to Build Something Ambitious?
 
-M1 Digital delivers enterprise-grade blockchain payment solutions that accelerate business growth while maintaining the highest security standards.
+M1 Digital combines software engineering rigour with original research to help organisations put blockchain and AI to work.
 
-**Get Started Today**  
+**Get Started Today**
 [Contact Us](contact.html) | [View Our Technology](technology.html) | [Explore Industries We Serve](industries.html)
 
 ---
 
-**© 2025 M1 Digital Pty Ltd. All rights reserved.**
+**© 2026 M1 Digital Pty Ltd. All rights reserved.**
 
-*Empowering businesses with next-generation blockchain payment and AI solutions.*
+*A software development and research company engineering the next generation of blockchain and AI systems.*

@@ -3,13 +3,13 @@
 ## Brand Overview
 
 ### Brand Positioning
-M1 Digital positions itself as the premier fintech innovator specializing in blockchain payment solutions. We combine cutting-edge technology with enterprise-grade reliability to deliver the future of digital payments.
+M1 Digital positions itself as a software development and research company specialising in blockchain and artificial intelligence technology. We combine original research with production-grade engineering to help organisations put emerging technology to work.
 
 ### Brand Values
-- **Innovation**: Leading the charge in blockchain payment technology
-- **Security**: Uncompromising protection of financial transactions
+- **Innovation**: Leading with original research in blockchain and AI
+- **Security**: Uncompromising, security-first engineering practices
 - **Reliability**: Enterprise-grade infrastructure with proven performance
-- **Accessibility**: Making blockchain payments simple for businesses of all sizes
+- **Accessibility**: Making blockchain and AI engineering approachable for organisations of all sizes
 - **Transparency**: Clear, honest communication about our capabilities and processes
 
 ---
@@ -18,7 +18,7 @@ M1 Digital positions itself as the premier fintech innovator specializing in blo
 
 ### Logo Concept
 **Primary Logo**: "M1" in bold, modern typography with "DIGITAL" beneath
-- The "M1" represents "Mission One" - our primary mission to revolutionize payments
+- The "M1" represents "Mission One" - our primary mission to advance blockchain and AI engineering
 - Clean, geometric font suggesting precision and technology
 - Optional blockchain-inspired geometric accent (cube or hexagon pattern)
 
@@ -48,19 +48,19 @@ M1 Digital positions itself as the premier fintech innovator specializing in blo
 - **Professional yet approachable**: Expert knowledge without intimidation
 - **Confident but not arrogant**: Assured in capabilities while remaining humble
 - **Clear and direct**: No unnecessary jargon or complexity
-- **Forward-thinking**: Always focused on the future of payments
+- **Forward-thinking**: Always focused on the future of blockchain and AI
 
 ### Key Messages
-1. **"Pioneering the Future of Blockchain Payments"** (Primary tagline)
-2. **"Where Traditional Finance Meets Digital Innovation"**
-3. **"Secure. Scalable. Revolutionary."**
-4. **"Empowering Businesses with Next-Generation Payment Solutions"**
+1. **"Engineering the Future of Blockchain & AI"** (Primary tagline)
+2. **"Where Research Meets Production Engineering"**
+3. **"Secure. Scalable. Research-Led."**
+4. **"Software Development & Research in Blockchain and AI"**
 
 ### Messaging Framework
-- **What we do**: Blockchain payment solutions and fintech innovation
-- **How we do it**: Cutting-edge technology with enterprise-grade security
-- **Why it matters**: Faster, safer, more cost-effective business transactions
-- **Who benefits**: Businesses ready to embrace the future of payments
+- **What we do**: Software development and applied research in blockchain and artificial intelligence
+- **How we do it**: Original research paired with enterprise-grade engineering
+- **Why it matters**: Faster, safer, more capable systems built on solid technical foundations
+- **Who benefits**: Organisations ready to build with blockchain and AI
 
 ---
 
@@ -90,16 +90,16 @@ M1 Digital positions itself as the premier fintech innovator specializing in blo
 ## Content Strategy
 
 ### Content Pillars
-1. **Technology Education**: Blockchain and payment technology insights
-2. **Industry Trends**: Fintech market analysis and predictions
+1. **Technology Education**: Blockchain and AI technology insights
+2. **Research Insights**: Original research findings and industry analysis
 3. **Use Cases**: Real-world applications and success stories
-4. **Security**: Best practices and compliance information
-5. **Innovation**: New features and product developments
+4. **Security**: Best practices and engineering standards
+5. **Innovation**: New capabilities and research developments
 
 ### Content Types
-- **Blog Posts**: Technical guides, industry insights, company updates
-- **Whitepapers**: In-depth analysis of blockchain payment solutions
-- **Case Studies**: Customer success stories and implementation examples
+- **Blog Posts**: Technical guides, research insights, company updates
+- **Research Papers**: In-depth analysis of blockchain and AI systems
+- **Case Studies**: Client success stories and implementation examples
 - **Webinars**: Educational content for potential clients
 - **Technical Documentation**: API guides and integration resources
 
@@ -130,18 +130,18 @@ M1 Digital positions itself as the premier fintech innovator specializing in blo
 ## Competitive Positioning
 
 ### Direct Competitors
-- Traditional payment processors (Stripe, PayPal)
-- Blockchain payment companies (BitPay, Coinbase Commerce)
-- Enterprise fintech solutions (Ripple, Stellar)
+- Blockchain engineering consultancies
+- AI/ML research and development firms
+- Enterprise software development agencies
 
 ### Differentiators
-- **Hybrid Approach**: Combining traditional and blockchain payments
+- **Research + Engineering**: Combining original research with production-grade software development
 - **Australian Focus**: Local expertise with global capabilities
 - **Enterprise-Grade**: Built for serious business applications
 - **Developer-First**: Easy integration and comprehensive APIs
 
 ### Market Positioning
-"The trusted bridge between traditional finance and blockchain innovation for Australian businesses ready to embrace the future of payments."
+"A software development and research company helping organisations put blockchain and AI to work, from first principles to production."
 
 ---
 
@@ -159,7 +159,7 @@ M1 Digital positions itself as the premier fintech innovator specializing in blo
 - [ ] Create content calendar
 - [ ] Launch thought leadership campaign
 - [ ] Network with industry partners
-- [ ] Attend fintech events and conferences
+- [ ] Attend blockchain and AI events and conferences
 
 ### Long-term Vision (6-12 months)
 - [ ] Establish thought leadership position

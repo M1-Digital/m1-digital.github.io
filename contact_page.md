@@ -9,28 +9,28 @@
 
 ## Get in Touch with M1 Digital
 
-Ready to transform your payment infrastructure with blockchain technology? Our team is here to help you explore how M1 Digital's solutions can accelerate your business growth.
+Ready to build with blockchain and AI? Our team is here to help you explore how M1 Digital's software development and research expertise can accelerate your project.
 
 ---
 
 ## Contact Information
 
 ### General Inquiries
-**Email:** info@m1-digital.com  
-**Phone:** +61 3 9521 2888  
+**Email:** info@m1-digital.com
+**Phone:** +61 3 9521 2888
 **Website:** www.m1-digital.com
 
 ### Business Address
-**M1 Digital Pty Ltd**  
-Level 2, 696 Bourke Street  
-Melbourne, VIC 3000  
+**M1 Digital Pty Ltd**
+Level 2, 696 Bourke Street
+Melbourne, VIC 3000
 Australia
 
 ---
 
 ## Business Hours
 
-**Monday - Friday:** 9:00 AM - 6:00 PM AEST  
+**Monday - Friday:** 9:00 AM - 6:00 PM AEST
 
 **Emergency Support:** Available 24/7 for enterprise clients
 
@@ -39,23 +39,23 @@ Australia
 ## Specialized Contact Teams
 
 ### Sales & Business Development
-**Email:** sales@m1-digital.com  
-**Phone:** +61 3 9521 2888  
-**Focus:** New client inquiries, solution consultations, partnership opportunities
+**Email:** sales@m1-digital.com
+**Phone:** +61 3 9521 2888
+**Focus:** New client inquiries, project consultations, partnership opportunities
 
 ### Technical Support
 **Email:** support@m1-digital.com
-**Phone:** +61 3 9521 2888  
+**Phone:** +61 3 9521 2888
 **Focus:** API integration, technical documentation, system issues
 
 ### Partnership & Alliances
-**Email:** partnerships@m1-digital.com  
-**Phone:** +61 3 9521 2888  
-**Focus:** Strategic partnerships, integration opportunities, channel partnerships
+**Email:** partnerships@m1-digital.com
+**Phone:** +61 3 9521 2888
+**Focus:** Strategic partnerships, integration opportunities, research collaborations
 
 ### Media & Press
-**Email:** media@m1-digital.com  
-**Phone:** +61 3 9521 2888  
+**Email:** media@m1-digital.com
+**Phone:** +61 3 9521 2888
 **Focus:** Press inquiries, media relations, interview requests
 
 ---
@@ -63,19 +63,19 @@ Australia
 ## How We Can Help
 
 ### Initial Consultation
-**Free 30-Minute Assessment**  
-Our team offers complimentary consultations to understand your payment challenges and explore how blockchain technology can benefit your business.
+**Free 30-Minute Assessment**
+Our team offers complimentary consultations to understand your project and explore how blockchain and AI technology can benefit your organisation.
 
 **Consultation Topics:**
-- Current payment system assessment
-- Blockchain payment opportunity analysis
+- Current systems assessment
+- Blockchain and AI opportunity analysis
 - Implementation timeline and requirements
 - Cost-benefit analysis
-- Regulatory compliance review
+- Technical feasibility review
 
 ### Technical Evaluation
-**Proof of Concept Development**  
-We can develop a proof of concept to demonstrate how our blockchain payment solutions integrate with your existing systems.
+**Proof of Concept Development**
+We can develop a proof of concept to demonstrate how our blockchain and AI systems integrate with your existing infrastructure.
 
 **POC Includes:**
 - System integration testing
@@ -85,8 +85,8 @@ We can develop a proof of concept to demonstrate how our blockchain payment solu
 - Implementation roadmap
 
 ### Custom Solution Development
-**Tailored Implementation**  
-Our team works closely with your organization to develop customized blockchain payment solutions that meet your specific requirements.
+**Tailored Implementation**
+Our team works closely with your organisation to develop customised blockchain and AI solutions that meet your specific requirements.
 
 **Development Process:**
 - Requirements analysis
@@ -99,23 +99,23 @@ Our team works closely with your organization to develop customized blockchain p
 
 ## Industries We Serve
 
-**E-Commerce & Retail**  
-Streamline online payments with cryptocurrency and traditional payment integration.
+**E-Commerce & Retail**
+Build intelligent digital commerce with blockchain and AI integration.
 
-**Financial Services**  
-Enhance banking infrastructure with blockchain payment capabilities.
+**Financial Services**
+Research and engineer blockchain and AI systems for financial institutions.
 
-**Healthcare**  
-Secure, compliant payment processing for medical transactions.
+**Healthcare**
+Secure, privacy-conscious systems for medical data and workflows.
 
-**Government & Public Sector**  
-Transparent, efficient payment solutions for government agencies.
+**Government & Public Sector**
+Transparent, efficient systems for government agencies.
 
-**Gaming & Entertainment**  
-Enable seamless in-game transactions and digital asset trading.
+**Gaming & Entertainment**
+Enable seamless in-game transactions and digital asset infrastructure.
 
-**Supply Chain & Logistics**  
-Automate supplier payments and international trade finance.
+**Supply Chain & Logistics**
+Automate supplier workflows and international trade infrastructure.
 
 [Learn more about our industry solutions](industries.html)
 
@@ -124,31 +124,31 @@ Automate supplier payments and international trade finance.
 ## Frequently Asked Questions
 
 ### Getting Started
-**Q: How long does implementation typically take?**  
+**Q: How long does implementation typically take?**
 A: Implementation timelines vary based on complexity, but most projects are completed within 4-12 weeks.
 
-**Q: Do you provide ongoing support?**  
+**Q: Do you provide ongoing support?**
 A: Yes, we offer comprehensive support packages including 24/7 technical support for enterprise clients.
 
-**Q: What are the costs involved?**  
-A: Costs depend on your specific requirements. Contact us for a customized quote.
+**Q: What are the costs involved?**
+A: Costs depend on your specific requirements. Contact us for a customised quote.
 
 ### Technical Questions
-**Q: How secure are blockchain payments?**  
-A: Our solutions use enterprise-grade security including multi-signature wallets, HSMs, and advanced encryption.
+**Q: How secure are the systems you build?**
+A: We engineer with security-first practices, including secure key management, encryption, and rigorous testing, aligning with recognised international standards such as ISO 27001.
 
-**Q: Can you integrate with our existing systems?**  
+**Q: Can you integrate with our existing systems?**
 A: Yes, our APIs are designed for seamless integration with existing business systems.
 
-**Q: What cryptocurrencies do you support?**  
-A: We support major cryptocurrencies including Bitcoin, Ethereum, and various stablecoins.
+**Q: What blockchain platforms do you work with?**
+A: We work across major blockchain ecosystems including Ethereum, Solana, Polygon, and other EVM-compatible and custom networks.
 
-### Compliance & Regulation
-**Q: Are your solutions compliant with Australian regulations?**  
-A: Yes, we maintain full compliance with AUSTRAC and other Australian financial regulations.
+### Research & Approach
+**Q: Do you conduct original research?**
+A: Yes, our team publishes and applies original research, including work on Large Quantitative Models, to inform the systems we build.
 
-**Q: How do you handle international compliance?**  
-A: We work with legal experts to ensure compliance across all jurisdictions where we operate.
+**Q: How do you approach security and compliance?**
+A: We work with legal and technical experts to ensure our engineering practices align with relevant standards and regulations across jurisdictions.
 
 ---
 
@@ -158,15 +158,15 @@ A: We work with legal experts to ensure compliance across all jurisdictions wher
 **For fastest response, please include:**
 - Your name and company
 - Industry and business size
-- Current payment challenges
-- Specific blockchain payment interests
+- Current technical challenges
+- Specific blockchain or AI interests
 - Preferred contact method and time
 
 ### Document Requests
 **Available Resources:**
 - Technical documentation
 - API integration guides
-- Security and compliance overview
+- Security overview
 - Case studies and success stories
 - Implementation methodology
 
@@ -183,8 +183,8 @@ A: We work with legal experts to ensure compliance across all jurisdictions wher
 ## Follow Us
 
 **LinkedIn:** [M1 Digital](https://www.linkedin.com/company/m1-digital/)
-**Twitter:** [@M1Digital_AU]  
-**GitHub:** [M1Digital-Australia]  
+**Twitter:** [@M1Digital_AU]
+**GitHub:** [M1Digital-Australia]
 **YouTube:** [M1 Digital Channel]
 
 ---
@@ -192,7 +192,7 @@ A: We work with legal experts to ensure compliance across all jurisdictions wher
 ## Office Location
 
 ### Melbourne Headquarters
-**Address:** Level 2, 696 Bourke Street, Melbourne, VIC 3000  
+**Address:** Level 2, 696 Bourke Street, Melbourne, VIC 3000
 **Phone:** +61 3 9521 2888
 **Email:** info@m1-digital.com
 
@@ -205,15 +205,15 @@ A: We work with legal experts to ensure compliance across all jurisdictions wher
 
 1. **Contact Us** - Reach out via phone or email
 2. **Schedule Consultation** - Book a free assessment call
-3. **Receive Proposal** - Get a customized solution plan
-4. **Begin Implementation** - Start your blockchain payment journey
+3. **Receive Proposal** - Get a customised solution plan
+4. **Begin Implementation** - Start your blockchain and AI project
 
-**Contact our team today to discover how M1 Digital can transform your payment infrastructure.**
+**Contact our team today to discover how M1 Digital can bring blockchain and AI engineering and research to your next project.**
 
 [Learn About Our Services](services.html) | [Explore Our Technology](technology.html) | [Read About Our Company](about.html)
 
 ---
 
-**© 2025 M1 Digital Pty Ltd. All rights reserved.**
+**© 2026 M1 Digital Pty Ltd. All rights reserved.**
 
-*Empowering businesses with next-generation blockchain payment solutions.*
+*A software development and research company engineering the next generation of blockchain and AI systems.*

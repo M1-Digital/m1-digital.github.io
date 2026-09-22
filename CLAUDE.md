@@ -4,7 +4,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Project Overview
 
-Static marketing website for M1 Digital Pty Ltd, a fintech company specializing in blockchain payment solutions. Hosted on GitHub Pages at m1-digital.com.
+Static marketing website for M1 Digital Pty Ltd, a software development and research company specialising in blockchain and artificial intelligence technology. Hosted on GitHub Pages at m1-digital.com.
 
 ## Tech Stack
 

@@ -7,156 +7,156 @@
 
 ---
 
-## Comprehensive Blockchain Payment Solutions
+## Software Development & Research in Blockchain and AI
 
-M1 Digital offers a full suite of blockchain payment and artificial intelligence services designed to meet the diverse needs of modern businesses. Our solutions combine cutting-edge technology with enterprise-grade reliability.
+M1 Digital offers a full suite of blockchain engineering, artificial intelligence, and research services designed to meet the diverse needs of organisations building with emerging technology. Our services combine original research with production-grade software engineering.
 
 ---
 
-## Blockchain Payment Solutions
+## Blockchain Engineering
 
-### Custom Blockchain Payment Gateways
-**Tailored Integration Solutions**  
-We develop custom payment gateways that seamlessly integrate blockchain payments into your existing systems. Our solutions support multiple cryptocurrencies and traditional payment methods.
+### Protocol Design & Smart Contract Development
+**Tailored On-Chain Systems**
+We design and build smart contracts and protocol logic tailored to your application, from token standards to custom on-chain business logic.
 
 **Key Features:**
-- Multi-currency support (Bitcoin, Ethereum, stablecoins)
-- Real-time transaction processing
-- Automated currency conversion
-- Comprehensive transaction reporting
-- White-label solutions available
+- Multi-chain deployment (Ethereum, Polygon, Solana, and more)
+- Smart contract architecture and development
+- Security-focused development and testing practices
+- Comprehensive technical documentation
+- Audit-ready code and process support
 
-### Cross-Border Payment Processing
-**Global Transactions Made Simple**  
-Eliminate the complexity and delays of traditional international payments. Our blockchain-powered cross-border solutions offer instant settlement and reduced fees.
+### Decentralised Infrastructure
+**Systems That Scale**
+We build the infrastructure that supports decentralised applications — from node operations to cross-chain messaging and indexing services.
 
 **Benefits:**
-- Instant cross-border settlements
-- Reduced transaction fees (up to 80% savings)
-- 24/7 processing availability
-- Transparent fee structure
-- Regulatory compliance across jurisdictions
+- Multi-chain architecture and interoperability
+- Reduced operational overhead through automation
+- 24/7 infrastructure monitoring
+- Transparent, well-documented architecture
+- Deployment across public and permissioned networks
 
-### Smart Contract Development
-**Automated Payment Solutions**  
-Custom smart contracts that automate payment processes, reduce manual intervention, and ensure secure, transparent transactions.
+### Smart Contract Automation
+**Automated On-Chain Workflows**
+Custom smart contracts that automate on-chain processes, reduce manual intervention, and ensure secure, transparent execution.
 
 **Applications:**
-- Automated supplier payments
-- Escrow services
-- Subscription billing
-- Milestone-based payments
-- Multi-party transaction coordination
+- Automated settlement logic
+- Escrow and multi-party coordination
+- Subscription and recurring on-chain billing
+- Milestone-based release mechanisms
+- Multi-signature transaction coordination
 
 ---
 
-## Digital Payment Infrastructure
+## Software Architecture & Platform Engineering
 
-### Real-Time Payment Processing
-**Lightning-Fast Transaction Processing**  
-Our infrastructure processes payments in seconds, not days. Built on scalable blockchain technology with enterprise-grade performance.
+### Real-Time, Scalable Systems
+**Production-Grade Software Engineering**
+Our engineering team builds real-time, scalable software systems with API-first architecture, built for high-availability production environments.
 
 **Performance Metrics:**
-- Sub-second transaction confirmation
+- Sub-second response times
 - 99.9% uptime SLA
-- Scalable to millions of transactions
+- Scalable to millions of events
 - Load balancing and redundancy
 - Global infrastructure deployment
 
-### Multi-Currency Support
-**Comprehensive Currency Management**  
-Support for traditional currencies, cryptocurrencies, and stablecoins with automatic conversion and real-time exchange rates.
+### Data & Systems Architecture
+**Comprehensive System Design**
+Architecture and engineering for the data and application layers that support blockchain and AI products, with automatic scaling and monitoring.
 
-**Supported Currencies:**
-- Major cryptocurrencies (BTC, ETH, LTC)
-- Stablecoins (USDC, USDT, DAI)
-- Traditional currencies (AUD, USD, EUR, GBP)
-- Custom token support
-- Real-time rate updates
+**Capabilities:**
+- Event-driven and streaming architectures
+- Data pipelines for on-chain and off-chain data
+- Custom integration layers
+- Observability and monitoring by default
+- Cloud-native deployment patterns
 
-### Advanced Security & Fraud Prevention
-**Bank-Grade Security Protocols**  
-Multi-layered security architecture protecting against fraud, hacking, and unauthorized access.
+### Security & Reliability Engineering
+**Security-First Architecture**
+Multi-layered security architecture protecting systems against threats and unauthorised access.
 
 **Security Features:**
-- Multi-signature wallet technology
-- Hardware Security Modules (HSMs)
-- Advanced fraud detection algorithms
-- Real-time transaction monitoring
-- Compliance with PCI DSS standards
+- Secure key management and multi-signature design
+- Hardware Security Modules (HSMs) where required
+- Automated anomaly detection
+- Continuous monitoring and alerting
+- Alignment with ISO 27001 practices
 
 ---
 
-## Financial Technology Consulting
+## Technology Research & Advisory
 
-### Blockchain Strategy & Implementation
-**Strategic Blockchain Adoption**  
-Comprehensive consulting services to help businesses navigate blockchain adoption, from strategy development to full implementation.
+### Blockchain Strategy & Feasibility
+**Independent Technical Research**
+Comprehensive research and advisory services to help organisations navigate blockchain adoption, from feasibility studies to full implementation.
 
-**Consulting Services:**
-- Blockchain readiness assessment
+**Advisory Services:**
+- Blockchain readiness and feasibility assessment
 - Technology roadmap development
 - Implementation planning
 - Risk assessment and mitigation
 - Training and knowledge transfer
 
 ### Digital Transformation
-**Modernizing Financial Operations**  
-Transform legacy payment systems with modern blockchain technology while maintaining operational continuity.
+**Modernising Legacy Systems**
+Transform legacy systems with modern blockchain and AI technology while maintaining operational continuity.
 
 **Transformation Areas:**
 - Legacy system integration
 - Process automation
-- Digital wallet implementation
-- API modernization
+- Digital wallet and identity implementation
+- API modernisation
 - Cloud infrastructure migration
 
-### Regulatory Compliance & Security Auditing
-**Compliance-First Approach**  
-Ensure your blockchain payment solutions meet all regulatory requirements with comprehensive compliance and security auditing services.
+### Security Review & Auditing
+**Rigorous, Research-Backed Review**
+Independent security review and auditing services for blockchain systems, smart contracts, and AI pipelines.
 
-**Compliance Services:**
-- AML/KYC implementation
-- Regulatory framework assessment
+**Review Services:**
+- Smart contract security review
+- Architecture risk assessment
 - Security vulnerability testing
-- Compliance monitoring
+- Ongoing monitoring recommendations
 - Audit preparation and support
 
 ---
 
 ## Artificial Intelligence & Large Quantitative Models
 
-### AI-Powered Financial Solutions
+### Applied AI Research
 **Intelligent Automation & Insights**
-We harness artificial intelligence and Large Quantitative Models (LQMs) to deliver advanced financial analytics, predictive modelling, and intelligent automation across payment ecosystems.
+We research and build with Large Quantitative Models (LQMs) and applied machine learning to deliver advanced analytics, predictive modelling, and intelligent automation.
 
 **AI Capabilities:**
-- Predictive analytics for market trends and payment flows
-- Large Quantitative Models for risk assessment and portfolio optimisation
-- Intelligent fraud detection and prevention
-- Natural language processing for financial data extraction
-- Automated compliance monitoring and reporting
+- Predictive analytics for time-series and market-style data
+- Large Quantitative Models for risk assessment and forecasting
+- Intelligent anomaly detection
+- Natural language processing for structured data extraction
+- Automated monitoring and reporting pipelines
 
 ### Quantitative Modelling & Analytics
 **Data-Driven Decision Making**
-Our Large Quantitative Models process vast datasets to uncover patterns, forecast outcomes, and drive smarter financial decisions for businesses.
+Our research into Large Quantitative Models processes vast datasets to uncover patterns, forecast outcomes, and drive smarter decisions.
 
 **Applications:**
-- Real-time risk scoring and credit assessment
-- Payment flow optimisation and forecasting
-- Market analysis and trend prediction
-- Customer behaviour modelling
-- Anomaly detection across transaction networks
+- Real-time risk scoring
+- Liquidity and flow forecasting
+- Market and trend analysis
+- Behavioural modelling
+- Anomaly detection across networks and transaction graphs
 
 ### AI Integration Services
-**Embedding Intelligence into Your Operations**
-We integrate AI capabilities directly into your existing financial infrastructure, enhancing decision-making and operational efficiency.
+**Embedding Intelligence into Your Systems**
+We integrate AI capabilities directly into your existing infrastructure, enhancing decision-making and operational efficiency.
 
 **Integration Options:**
-- AI-enhanced payment routing and optimisation
-- Intelligent customer onboarding (KYC/AML)
-- Automated regulatory reporting
-- Predictive maintenance for payment infrastructure
+- AI-enhanced routing and optimisation
+- Intelligent onboarding and verification flows
+- Automated reporting pipelines
+- Predictive maintenance for production systems
 - Custom AI model development and deployment
 
 ---
@@ -164,24 +164,24 @@ We integrate AI capabilities directly into your existing financial infrastructur
 ## API & Integration Services
 
 ### Developer-Friendly APIs
-**Seamless Integration**  
-Comprehensive APIs and SDKs that make blockchain payment integration straightforward for development teams.
+**Seamless Integration**
+Comprehensive APIs and SDKs that make blockchain and AI integration straightforward for development teams.
 
 **API Features:**
-- RESTful API architecture
+- RESTful and GraphQL API architecture
 - Comprehensive documentation
 - SDKs for popular languages
 - Sandbox environment for testing
-- 24/7 developer support
+- Developer support
 
 ### Custom Integration Solutions
-**Tailored Implementation**  
+**Tailored Implementation**
 Our team works directly with your developers to ensure smooth integration and optimal performance.
 
 **Integration Support:**
 - Custom API development
 - System architecture consulting
-- Performance optimization
+- Performance optimisation
 - Testing and validation
 - Ongoing technical support
 
@@ -189,19 +189,19 @@ Our team works directly with your developers to ensure smooth integration and op
 
 ## Getting Started
 
-**Ready to transform your payment infrastructure?**
+**Ready to build with blockchain and AI?**
 
-Our team is ready to discuss your specific needs and develop a customized solution that drives your business forward.
+Our team is ready to discuss your project and develop a customised approach that combines research and engineering.
 
 **Next Steps:**
 1. **Consultation** - Discuss your requirements and objectives
 2. **Assessment** - Evaluate your current systems and needs
 3. **Proposal** - Receive a detailed implementation plan
-4. **Implementation** - Deploy your blockchain payment solution
-5. **Support** - Ongoing maintenance and optimization
+4. **Implementation** - Build and deploy your solution
+5. **Support** - Ongoing maintenance and optimisation
 
 [Contact Us Today](contact.html) | [Learn About Our Technology](technology.html) | [View Industries We Serve](industries.html)
 
 ---
 
-**© 2025 M1 Digital Pty Ltd. All rights reserved.**
+**© 2026 M1 Digital Pty Ltd. All rights reserved.**

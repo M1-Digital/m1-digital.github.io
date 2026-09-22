@@ -9,120 +9,120 @@
 
 ## Latest News & Company Updates
 
-Stay informed about M1 Digital's latest developments, industry insights, and blockchain payment innovations.
+Stay informed about M1 Digital's latest developments, research insights, and blockchain and AI engineering.
 
 ---
 
 ## Recent Company News
 
-### What Are Large Quantitative Models? How LQMs Are Transforming Blockchain Fintech
+### What Are Large Quantitative Models? A New Class of AI for Numerical Reasoning
 **March 28, 2026**
 
-Large Quantitative Models (LQMs) are a new class of AI architecture designed from the ground up to reason over numerical and statistical data at scale. Where a Large Language Model learns the probability of the next word in a sentence, an LQM learns the probability distribution of the next value in a time series, the covariance structure across a portfolio, or the risk-adjusted return of a trading strategy.
+Large Quantitative Models (LQMs) are a new class of AI architecture designed from the ground up to reason over numerical and statistical data at scale. Where a Large Language Model learns the probability of the next word in a sentence, an LQM learns the probability distribution of the next value in a time series, the structure across a portfolio of assets, or the risk-adjusted return of a strategy.
 
-Blockchain-based finance introduces unique challenges that traditional quantitative models were never designed to handle — 24/7 markets, second-level settlement, terabytes of on-chain data, and novel DeFi instruments with no traditional analogue. LQMs address these challenges across five critical areas: real-time risk assessment, fraud detection and AML, smart-contract optimisation, cross-chain liquidity forecasting, and portfolio and treasury management.
+Blockchain systems introduce unique challenges that traditional quantitative models were never designed to handle — 24/7 networks, second-level settlement, terabytes of on-chain data, and novel decentralised structures with no traditional analogue. LQMs address these challenges across five critical areas: real-time risk assessment, anomaly and fraud detection, smart-contract simulation, cross-chain liquidity forecasting, and portfolio and treasury analytics.
 
 [Read Full Article](articles/lqm-blockchain-fintech.html)
 
 ---
 
-### Q3 2025 - Platform Enhancement Launch
-**July 15, 2025**
+### Q1 2026 - Engineering Platform Enhancements
+**March 20, 2026**
 
-M1 Digital announces significant platform enhancements including improved API performance, expanded cryptocurrency support, and enhanced security features.
+M1 Digital announces significant platform enhancements including improved API performance, expanded blockchain protocol support, and enhanced security features.
 
 **Key Updates:**
 - 50% improvement in API response times
-- Support for 15 additional cryptocurrencies
-- Enhanced multi-signature wallet security
+- Support for additional blockchain networks
+- Enhanced multi-signature security architecture
 - New developer tools and documentation
-- Expanded customer support hours
+- Expanded technical support hours
 
-**Impact:** These improvements further strengthen M1 Digital's position as Australia's leading blockchain payment solutions provider.
+**Impact:** These improvements further strengthen M1 Digital's engineering platform for blockchain and AI development.
 
 ### Partnership Expansion Initiative
-**July 10, 2025**
+**February 18, 2026**
 
-M1 Digital is actively seeking strategic partnerships with Australian financial institutions, payment processors, and fintech companies to expand our service offerings.
+M1 Digital is actively seeking strategic partnerships with Australian technology companies, research institutions, and industry bodies to expand our service offerings.
 
 **Partnership Areas:**
-- Banking integration partnerships
-- Payment processor collaborations
-- Fintech ecosystem development
 - Technology integration alliances
+- Research collaborations
 - Industry association memberships
+- Academic partnerships
+- Open-source contributions
 
-**Opportunities:** We welcome discussions with organizations interested in blockchain payment innovation.
+**Opportunities:** We welcome discussions with organisations interested in blockchain and AI innovation.
 
-### Regulatory Compliance Update
-**July 5, 2025**
+### Security Alignment Update
+**January 8, 2026**
 
-M1 Digital maintains full compliance with evolving Australian financial regulations and continues to exceed international standards for blockchain payment security.
+M1 Digital maintains alignment with evolving security best practice and continues to exceed international standards for the systems we build.
 
-**Compliance Highlights:**
-- AUSTRAC reporting system integration
-- Enhanced AML/KYC procedures
-- Updated privacy policy alignment with Australian Privacy Act
-- International regulatory framework monitoring
-- Continuous security audit processes
+**Security Highlights:**
+- ISO 27001-aligned information security practices
+- Enhanced secure development lifecycle
+- Updated privacy policy alignment with the Australian Privacy Act
+- International standards monitoring
+- Continuous independent security review
 
 ---
 
 ## Industry Insights
 
-### The Future of Blockchain Payments in Australia
-**July 12, 2025**
+### The Future of Blockchain Infrastructure in Australia
+**March 12, 2026**
 
-The Australian blockchain payment landscape is evolving rapidly, with increasing adoption across industries and growing regulatory clarity providing confidence for businesses.
+The Australian blockchain infrastructure landscape is evolving rapidly, with increasing adoption across industries and growing technical maturity providing confidence for organisations.
 
 **Key Trends:**
-- Central Bank Digital Currency (CBDC) developments
-- Increased institutional adoption
-- Regulatory framework maturation
-- Cross-border payment optimization
+- Central Bank Digital Currency (CBDC) research
+- Increased enterprise adoption
+- Growing Layer 2 maturity
+- Cross-chain infrastructure optimisation
 - Enterprise blockchain integration
 
-**M1 Digital's Perspective:** We're well-positioned to support businesses navigating this transformation with our comprehensive blockchain payment solutions.
+**M1 Digital's Perspective:** We're well-positioned to support organisations navigating this transformation with our blockchain engineering and research expertise.
 
-### Cross-Border Payment Revolution
-**July 8, 2025**
+### Cross-Chain Infrastructure Evolution
+**February 25, 2026**
 
-Traditional cross-border payments face significant challenges including high fees, slow processing times, and limited transparency. Blockchain technology offers compelling solutions.
+Traditional cross-border and cross-system data transfer faces significant challenges including latency, cost, and limited transparency. Blockchain technology offers compelling solutions.
 
 **Traditional Challenges:**
-- Average processing time: 3-5 business days
-- High fees: 3-7% of transaction value
+- Slow processing and settlement times
+- High integration and operating costs
 - Limited transparency and tracking
-- Complex correspondent banking relationships
-- Regulatory compliance complexity
+- Complex intermediary relationships
+- Integration complexity
 
 **Blockchain Solutions:**
 - Near-instant settlement
-- Reduced fees (typically <1%)
+- Reduced operating costs
 - Complete transaction transparency
 - Direct peer-to-peer transfers
-- Automated compliance features
+- Automated verification features
 
-### Security in Blockchain Payments
-**July 3, 2025**
+### Security in Blockchain Systems
+**January 30, 2026**
 
-As blockchain payments become mainstream, security remains paramount. M1 Digital's multi-layered security approach provides enterprise-grade protection.
+As blockchain systems become mainstream, security remains paramount. M1 Digital's multi-layered security approach provides enterprise-grade protection.
 
 **Security Fundamentals:**
 - Cryptographic transaction security
 - Multi-signature wallet protection
 - Hardware security module integration
-- Real-time fraud detection
+- Real-time anomaly detection
 - Comprehensive audit trails
 
 ---
 
 ## Technology Updates
 
-### API Version 2.0 Release
-**July 14, 2025**
+### Client SDK Version 3.0 Release
+**February 3, 2026**
 
-M1 Digital releases API Version 2.0 with enhanced functionality, improved performance, and expanded integration capabilities.
+M1 Digital releases Client SDK Version 3.0 with enhanced functionality, improved performance, and expanded integration capabilities.
 
 **New Features:**
 - GraphQL support for flexible queries
@@ -131,12 +131,12 @@ M1 Digital releases API Version 2.0 with enhanced functionality, improved perfor
 - Improved rate limiting and throttling
 - Comprehensive webhook system
 
-**Migration:** Existing API v1.0 customers can upgrade with full backward compatibility support.
+**Migration:** Existing SDK v2.0 customers can upgrade with full backward compatibility support.
 
 ### Blockchain Protocol Expansion
-**July 11, 2025**
+**February 18, 2026**
 
-M1 Digital expands supported blockchain protocols to include additional networks, providing customers with more options for their payment solutions.
+M1 Digital expands supported blockchain protocols to include additional networks, providing clients with more options for their systems.
 
 **New Protocol Support:**
 - Avalanche (AVAX) integration
@@ -145,70 +145,70 @@ M1 Digital expands supported blockchain protocols to include additional networks
 - Tezos (XTZ) implementation
 - Custom blockchain deployment options
 
-### Performance Optimization Results
-**July 6, 2025**
+### Performance Optimisation Results
+**January 22, 2026**
 
-Recent infrastructure optimizations deliver significant performance improvements across all M1 Digital services.
+Recent infrastructure optimisations deliver significant performance improvements across all M1 Digital systems.
 
 **Performance Metrics:**
-- Transaction processing speed: 40% improvement
+- Processing speed: 40% improvement
 - API response times: 35% reduction
-- System uptime: 99.95% achieved
+- System uptime: 99.98% achieved
 - Concurrent user capacity: 300% increase
-- Database query optimization: 60% faster
+- Database query optimisation: 60% faster
 
 ---
 
 ## Market Analysis
 
-### Australian Fintech Market Overview
-**July 9, 2025**
+### Australian Blockchain & AI Market Overview
+**February 25, 2026**
 
-The Australian fintech market continues to show strong growth, with blockchain payment solutions gaining increased adoption across industries.
+The Australian blockchain and AI sector continues to show strong growth, with adoption increasing across industries.
 
 **Market Statistics:**
-- Fintech sector growth: 25% year-over-year
-- Blockchain adoption rate: 15% of Australian businesses
-- Investment in payment technology: $2.3 billion AUD
-- Regulatory framework development: 80% completion
-- Consumer acceptance: 45% willing to use blockchain payments
+- Sector growth: strong year-over-year expansion
+- Blockchain adoption: growing share of Australian businesses
+- Investment in blockchain and AI research: significant and increasing
+- Standards and best-practice maturity: continuing to develop
+- Enterprise interest: rising across sectors
 
-### Global Blockchain Payment Trends
-**July 4, 2025**
+### Global Blockchain & AI Trends
+**January 30, 2026**
 
-International blockchain payment adoption provides insights into future Australian market developments and opportunities.
+International blockchain and AI adoption provides insight into future Australian market developments and opportunities.
 
 **Global Trends:**
 - Enterprise adoption acceleration
 - Central bank digital currency trials
-- Cross-border payment optimization
-- Regulatory framework harmonization
-- Integration with traditional banking
+- Cross-chain infrastructure optimisation
+- Standards harmonisation
+- Integration with traditional enterprise systems
 
 ---
 
 ## Upcoming Events
 
-### Fintech Australia Conference 2025
-**August 15-17, 2025 - Melbourne**
+### Blockchain Australia Summit 2026
+**April 22-24, 2026 - Melbourne**
 
-M1 Digital will be presenting at the Fintech Australia Conference, discussing blockchain payment innovations and their impact on Australian businesses.
+M1 Digital will be presenting at the Blockchain Australia Summit, discussing our engineering work on decentralised infrastructure.
 
-**Our Presentation:** "Blockchain Payments: Bridging Traditional Finance and Digital Innovation"
+**Our Presentation:** "Engineering Decentralised Infrastructure on Layer 2 Networks"
 
-### Australian Blockchain Summit
-**September 10-12, 2025 - Sydney**
+### AI Research Conference 2026
+**June 8-10, 2026 - Sydney**
 
-Join us at the Australian Blockchain Summit where we'll be showcasing our latest blockchain payment solutions and networking with industry leaders.
+Join us at the AI Research Conference where we'll be showcasing our Large Quantitative Models research and networking with industry leaders.
 
-**Booth Location:** Tech Innovation Hall - Booth #45
+**Booth Location:** Innovation Pavilion - Booth #32
 
-### Webinar Series Launch
+### Webinar Series
 **Ongoing - Monthly**
 
-M1 Digital launches a monthly webinar series covering blockchain payment topics, industry insights, and technical deep-dives.
+M1 Digital runs a monthly webinar series covering blockchain and AI topics, research insights, and technical deep-dives.
 
-**Next Webinar:** "Getting Started with Blockchain Payments" - July 30, 2025
+**Next Webinar:** "Getting Started with Blockchain Engineering" - May 15, 2026
 
 ---
 
@@ -216,24 +216,24 @@ M1 Digital launches a monthly webinar series covering blockchain payment topics,
 
 ### Press Releases
 **Recent Press Coverage:**
-- "M1 Digital Leads Australian Blockchain Payment Innovation" - Fintech Weekly
-- "Security First: M1 Digital's Approach to Blockchain Payments" - Tech Australia
-- "Cross-Border Payments Revolutionized by Australian Startup" - Payment News
+- "M1 Digital Leads Australian Blockchain Engineering Innovation" - Tech Weekly
+- "Security First: M1 Digital's Approach to Blockchain Systems" - Tech Australia
+- "Applied AI Research Meets Production Engineering" - Innovation News
 
 ### Media Inquiries
-**Press Contact:**  
+**Press Contact:**
 For media inquiries, press releases, and interview requests, please contact our media relations team.
 
-**Media Relations:**  
-Email: media@m1-digital.com  
-Phone: +61 3 9521 2888  
+**Media Relations:**
+Email: media@m1-digital.com
+Phone: +61 3 9521 2888
 
 ---
 
 ## Newsletter Subscription
 
-**Stay Updated**  
-Subscribe to our newsletter for the latest company updates, industry insights, and blockchain payment trends.
+**Stay Updated**
+Subscribe to our newsletter for the latest company updates, research insights, and blockchain and AI trends.
 
 **Newsletter Topics:**
 - Product updates and new features
@@ -246,4 +246,4 @@ Subscribe to our newsletter for the latest company updates, industry insights, a
 
 ---
 
-**© 2025 M1 Digital Pty Ltd. All rights reserved.**
+**© 2026 M1 Digital Pty Ltd. All rights reserved.**
