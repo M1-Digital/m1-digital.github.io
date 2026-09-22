@@ -189,26 +189,10 @@ International blockchain and AI adoption provides insight into future Australian
 
 ## Upcoming Events
 
-### Blockchain Australia Summit 2026
-**April 22-24, 2026 - Melbourne**
+### Speaking Appearances and Workshops
+**Dates to be announced**
 
-M1 Digital will be presenting at the Blockchain Australia Summit, discussing our engineering work on decentralised infrastructure.
-
-**Our Presentation:** "Engineering Decentralised Infrastructure on Layer 2 Networks"
-
-### AI Research Conference 2026
-**June 8-10, 2026 - Sydney**
-
-Join us at the AI Research Conference where we'll be showcasing our Large Quantitative Models research and networking with industry leaders.
-
-**Booth Location:** Innovation Pavilion - Booth #32
-
-### Webinar Series
-**Ongoing - Monthly**
-
-M1 Digital runs a monthly webinar series covering blockchain and AI topics, research insights, and technical deep-dives.
-
-**Next Webinar:** "Getting Started with Blockchain Engineering" - May 15, 2026
+M1 Digital's conference talks, workshops, and webinars are listed here as dates are confirmed. If you would like to arrange a technical briefing or invite the team to speak in the meantime, please [get in touch](contact.html).
 
 ---
 

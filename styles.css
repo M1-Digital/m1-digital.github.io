@@ -115,6 +115,14 @@ nav.nav-scrolled {
     fill: #5ea3f5;
 }
 
+[data-theme="dark"] nav:not(.nav-scrolled) .logo-numeral {
+    fill: #ffffff;
+}
+
+[data-theme="dark"] nav:not(.nav-scrolled) .logo-mark {
+    fill: var(--primary-light);
+}
+
 [data-theme="dark"] nav:not(.nav-scrolled) .theme-toggle {
     color: rgba(255, 255, 255, 0.7);
 }
@@ -143,7 +151,7 @@ nav.nav-scrolled {
 }
 
 .logo-svg {
-    height: 1.8rem;
+    height: 2.4rem;
     width: auto;
     transition: opacity 0.2s ease;
 }
@@ -159,6 +167,17 @@ nav.nav-scrolled {
 
 .logo-accent {
     fill: var(--primary-color);
+    transition: fill 0.3s ease;
+}
+
+/* M1D monogram — themed, so it tracks light/dark like the rest of the palette */
+.logo-mark {
+    fill: var(--primary-color);
+    transition: fill 0.3s ease;
+}
+
+.logo-numeral {
+    fill: var(--text-color);
     transition: fill 0.3s ease;
 }
 
@@ -1358,10 +1377,19 @@ footer {
 }
 
 .footer-logo {
-    height: 1.6rem;
+    height: 2.2rem;
     width: auto;
     margin-bottom: 1rem;
     opacity: 0.85;
+}
+
+/* The footer is a fixed dark slab (#06101f) in both themes, so it takes the light end of the palette */
+footer .logo-mark {
+    fill: var(--primary-light);
+}
+
+footer .logo-numeral {
+    fill: rgba(255, 255, 255, 0.85);
 }
 
 .footer-description {
